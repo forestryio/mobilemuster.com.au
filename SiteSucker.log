@@ -1,0 +1,1639 @@
+
+24/6/17, 3:45:53 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/make-a-poster/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	failed with error code 404 (not found)
+24/6/17, 3:45:57 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/send-in-your-work/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/index.html",
+	failed with error code 404 (not found)
+24/6/17, 3:46:25 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/calculator/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/run-a-muster/index.html",
+	failed with error code 404 (not found)
+24/6/17, 3:46:30 pm - ERROR: Download of "http://www.mobilemuster.com.au/news/collection-results/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	failed with error code 404 (not found)
+24/6/17, 3:46:39 pm - ERROR: Download of "http://www.mobilemuster.com.au/councils/local-government-awards/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/brisbane-city-council-wins-national-e-waste-recycling-award/index.html",
+	failed with error code 404 (not found)
+24/6/17, 3:46:46 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/images/option-bg.gif",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/js/jquery.selectBox.css",
+	failed with error code 404 (not found)
+24/6/17, 3:46:46 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/js/jquery.selectBox-tick.gif",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/js/jquery.selectBox.css",
+	failed with error code 404 (not found)
+24/6/17, 3:46:58 pm - STATUS: Level = 6, Files Downloaded = 867, Files Remaining = 0, Errors = 7
+	Connections = 10, Time to Downloaded = 168 seconds
+
+---------------------
+
+24/6/17, 4:49:54 pm - WARNING: Download of "http://www.mobilemuster.com.au/robots.txt"
+	failed with error code 404 (not found)
+24/6/17, 4:49:54 pm - WARNING: Unable to download "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "http://code.jquery.com/ui/1.10.3/jquery-ui.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://maps.googleapis.com/maps/api/js?key=AIzaSyD3DPcPgu_ixmUz40vuliMEw6ld-i85xo0&sensor=false&language=en-AU",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://www.googletagmanager.com/ns.html?id=GTM-KL6PLQ8",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://www.linkedin.com/company-beta/7577101",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://www.instagram.com/mobilemuster1/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://twitter.com/MobileMuster1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:54 pm - WARNING: Unable to download "https://www.facebook.com/mobilemuster/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:56 pm - WARNING: Unable to download "http://www.amta.org.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:56 pm - WARNING: Unable to download "http://www.republicofeveryone.com",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:56 pm - WARNING: Unable to download "https://portal.ecoactiv.com/mmbooking.ssp",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:56 pm - WARNING: Unable to download "http://auspost.com.au/pol/app/locate",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html",
+	because its path is not allowed
+24/6/17, 4:49:56 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:00 pm - WARNING: Unable to download "https://www.facebook.com/tr?id=433972223473870&ev=PageView&noscript=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://www.auspost.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://techcollect.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://www.dropzone.org.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://cdn.amgdgt.com/base/js/v1/amgdgt.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://recycling.batteryworld.com.au/where-do-i-dispose-my-dead-batteries",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://at.amgdgt.com/ads/?f=i&t=x&ctr=16370&rnd=39259",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://aldi.com.au/au/html/23834.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:00 pm - WARNING: Unable to download "http://recyclingnearyou.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/contact-us/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/fast-facts/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/post-them-in/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.environment.gov.au/protection/national-waste-policy/television-and-computer-recycling-scheme",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.recyclingnearyou.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://recycling.batteryworld.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://corporate.aldi.com.au/en/corporate-responsibility/corporate-responsibility-at-aldi/battery-recycling/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.alcatel-mobile.com/global-en/support",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.htc.com/au/support/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.lg.com/au/support/smartphones",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://www.nokia.com/en_int/phones/support?utm_content=nokia-nav",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.zte.com.au/telstra/zte-support.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://support.apple.com/en-au/iphone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://consumer.huawei.com/en/support/index.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.tes-amm.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://support.microsoft.com/en-au/products/mobile-devices",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.samsung.com/au/support/category/mobile/mobiledevice/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://global.blackberry.com/en/support",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.kyoceramobile.com/support/phone/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://motorola-global-en-aus.custhelp.com/app/home",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://support.sonymobile.com/au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://devicehelp.optus.com.au/web/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://www.telstra.com.au/telstra-store/tech-bar/booking.cfm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "https://www.telstra.com.au/connectedhome/enhancements/platinum",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.comlaw.gov.au/Details/C2011A00076",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://devices.vodafone.com.au/web/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.environment.gov.au/protection/national-waste-policy/product-stewardship/voluntary-product-stewardship",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://www.environment.gov.au/system/files/resources/3947fa3a-8404-472c-92c9-1745e6954558/files/fs-product-stewardship-act.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: Unable to download "http://recyclingweek.planetark.org/documents/doc-1211-product-stewardship-factsheet.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:50:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:02 pm - WARNING: Unable to download "http://www.ebay.com/s/phone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/reuse-options/index.html",
+	because its path is not allowed
+24/6/17, 4:50:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/data-management/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:02 pm - WARNING: Unable to download "http://www.youtube.com/embed/zM7qwI3grt8",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/decluttering-tips/index.html",
+	because its path is not allowed
+24/6/17, 4:50:02 pm - WARNING: Unable to download "http://www.youtube.com/embed/ozwMonBerK4",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/decluttering-tips/index.html",
+	because its path is not allowed
+24/6/17, 4:50:02 pm - WARNING: Unable to download "http://www.youtube.com/embed/n6ez3rvFeBc",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/decluttering-tips/index.html",
+	because its path is not allowed
+24/6/17, 4:50:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/product-stewardship/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/why-recycling-matters/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/learn-about-recycling/reuse-options/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/decluttering-tips/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: Unable to download "http://worldenvironmentday.global/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/world-environment-day/index.html",
+	because its path is not allowed
+24/6/17, 4:50:03 pm - WARNING: Unable to download "http://www.facebook.com/mobilemuster",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/index.html",
+	because its path is not allowed
+24/6/17, 4:50:03 pm - WARNING: Unable to download "https://twitter.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/index.html",
+	because its path is not allowed
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/annual-reports-publications/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: Unable to download "http://www.facebook.com/plugins/likebox.php?href=http:%2F%2Fwww.facebook.com%2Fmobilemuster&width=250&height=395&colorscheme=light&show_faces=false&border_color&stream=true&header=false",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/index.html",
+	because its path is not allowed
+24/6/17, 4:50:03 pm - WARNING: Unable to download "http://widgets.twimg.com/j/2/widget.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/index.html",
+	because its path is not allowed
+24/6/17, 4:50:03 pm - WARNING: Unable to download "mailto:mobilemuster@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/retailer-login/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/world-environment-day/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/consumer-research/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:04 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/book-a-pick-up/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:04 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/packing-instructions/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:04 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/retailer-login/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:04 pm - WARNING: Unable to download "mailto:mobilemuster@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/register-your-store/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:04 pm - WARNING: Unable to download "http://schoolsrecycle.planetark.org/recyclerescue/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://api.recaptcha.net/challenge?k=6Lcv4wsTAAAAAPJETgWtfvKd5ByC3G-G3xxNdNYE",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/register-your-store/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://api.recaptcha.net/noscript?k=6Lcv4wsTAAAAAPJETgWtfvKd5ByC3G-G3xxNdNYE",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/register-your-store/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "mailto:mobilemuster@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/register-your-store/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/oPdTMpNDpwk/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/fBlfpWCX8-k/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/28DDaguoweY/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/retailer/register-your-store/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/W8Lw-sGs644/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/da0ZlDZQRLk/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:05 pm - WARNING: Unable to download "http://img.youtube.com/vi/sYigxeVG4EA/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/UkbpiL9UsY8/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/sW_7i6T_H78/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/book-a-pick-up/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/rWfqkrAM8IY/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/oDAw7vW7H0c/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/book-a-pick-up/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/hIR3VW5DQ_o/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/Q0UoHCfRwJU/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: Unable to download "http://img.youtube.com/vi/rmlPgLUWs78/0.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	because its path is not allowed
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/register-your-school/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/resources/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:08 pm - WARNING: Unable to download "http://mobilemuster.com.au/contact-us/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/index.html",
+	because its path is not allowed
+24/6/17, 4:50:08 pm - WARNING: Unable to download "http://www.infoactiv.com.au/services/mobilemuster/bookingform.cfm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/index.html",
+	because its path is not allowed
+24/6/17, 4:50:08 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:08 pm - WARNING: Unable to download "http://www.youtube.com/embed/ZZ11C1e4Ep8?list=PLmPwkr7R_vUlVAYVnMN5r8aBOd8QYC1ub",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/index.html",
+	because its path is not allowed
+24/6/17, 4:50:08 pm - WARNING: Unable to download "mailto:mobilemuster@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/contact-us/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:08 pm - WARNING: Unable to download "http://202.91.7.245/storage/templatedWeb/G29_A/resources/images/header/firstNational_real_estate_logo.gif",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/index.html",
+	because its path is not allowed
+24/6/17, 4:50:09 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/book-a-pick-up/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:09 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/contact-us/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:09 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/case-studies/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:10 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:10 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/resources-1/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils/register-your-council/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/register-your-workplace/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: Unable to download "http://www.mobiletips.org.au/pages/Mobile.Maintenance.Tips",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/phone-repairs/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: Unable to download "file:///C:/Users/Yoda/Desktop/Larissa/Mobile%20Muster/Search%20Engine%20Optimisation/SEO%20MobileMuster.docx#_ftn1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycling-in-australia/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:12 pm - WARNING: Unable to download "file:///C:/Users/rose.read/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.Outlook/322GIUHX/SEO%20MobileMuster%20(2).docx#_ftn1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/computer-recycling/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:12 pm - WARNING: Unable to download "http://www.ecoactiv.com.au/ewastebox/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: Unable to download "file:///C:/Users/Yoda/Desktop/Larissa/Mobile%20Muster/Search%20Engine%20Optimisation/SEO%20MobileMuster.docx#_ftnref1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycling-in-australia/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:12 pm - WARNING: Unable to download "http://www.storageking.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: Unable to download "file:///C:/Users/Yoda/Desktop/Larissa/Mobile%20Muster/Search%20Engine%20Optimisation/SEO%20MobileMuster.docx#_ftnref2",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycling-in-australia/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:12 pm - WARNING: Unable to download "file:///C:/Users/rose.read/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.Outlook/322GIUHX/SEO%20MobileMuster%20(2).docx#_ftnref1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/computer-recycling/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:12 pm - WARNING: Unable to download "https://www.ecoactiv.com.au/wp-content/uploads/2014/09/Participating-NSW-Storage-King-stores.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: Unable to download "http://www.ecoactiv.com.au/ewastebox",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: Unable to download "http://www.youtube.com/embed/pCqrdx-Rm10",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html",
+	because its path is not allowed
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/decluttering-old-mobile-phones/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/phone-repairs/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/10-reasons-to-recycle-with-mobilemuster/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/phone-recycling/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/computer-recycling/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:12 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycling-in-australia/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:13 pm - WARNING: "http://www.republicofeveryone.com/" was redirected to
+	"https://www.republicofeveryone.com/"
+24/6/17, 4:50:13 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/reducing-e-waste/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:14 pm - WARNING: "https://www.republicofeveryone.com/" was redirected to
+	"https://republicofeveryone.com/"
+24/6/17, 4:50:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/phone-disposal/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/sitemap/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/legal-privacy/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:14 pm - WARNING: "http://www.auspost.com.au/" was redirected to
+	"https://auspost.com.au/"
+24/6/17, 4:50:15 pm - WARNING: "http://www.dropzone.org.au/" was redirected to
+	"https://mri.com.au/dropzone/"
+24/6/17, 4:50:16 pm - WARNING: "http://recycling.batteryworld.com.au/where-do-i-dispose-my-dead-batteries" was redirected to
+	"http://recycling.batteryworld.com.au/Find-A-Store"
+24/6/17, 4:50:16 pm - WARNING: "http://recycling.batteryworld.com.au/Find-A-Store" was redirected to
+	"https://www.batteryworld.com.au/Find-A-Store"
+24/6/17, 4:50:17 pm - ERROR: Download of "http://aldi.com.au/au/html/23834.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/about-us/faqs/index.html",
+	failed with error code 403 (forbidden)
+24/6/17, 4:50:17 pm - WARNING: "http://recycling.batteryworld.com.au/" was redirected to
+	"https://www.batteryworld.com.au/"
+24/6/17, 4:50:17 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/get-involved/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:19 pm - WARNING: "http://devicehelp.optus.com.au/web/" was redirected to
+	"http://devicehelp.optus.com.au/"
+24/6/17, 4:50:19 pm - ERROR: Download of "https://corporate.aldi.com.au/en/corporate-responsibility/corporate-responsibility-at-aldi/battery-recycling/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/recycle-a-mobile/other-electronic-recycling/index.html",
+	failed with error code 403 (forbidden)
+24/6/17, 4:50:19 pm - WARNING: "https://www.telstra.com.au/connectedhome/enhancements/platinum" was redirected to
+	"https://www.telstra.com.au/broadband/platinum"
+24/6/17, 4:50:19 pm - WARNING: "http://www.comlaw.gov.au/Details/C2011A00076" was redirected to
+	"https://www.legislation.gov.au/Details/C2011A00076"
+24/6/17, 4:50:21 pm - WARNING: "http://www.youtube.com/embed/zM7qwI3grt8" was redirected to
+	"https://www.youtube.com/embed/zM7qwI3grt8"
+24/6/17, 4:50:22 pm - WARNING: "http://www.youtube.com/embed/ozwMonBerK4" was redirected to
+	"https://www.youtube.com/embed/ozwMonBerK4"
+24/6/17, 4:50:26 pm - WARNING: "http://www.youtube.com/embed/n6ez3rvFeBc" was redirected to
+	"https://www.youtube.com/embed/n6ez3rvFeBc"
+24/6/17, 4:50:38 pm - WARNING: Unable to download "http://s7.addthis.com/js/250/addthis_widget.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-06/local-councils-lift-recycling-game/index.html",
+	because its path is not allowed
+24/6/17, 4:50:38 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-06/local-councils-lift-recycling-game/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:39 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-06/australians-just-cant-let-go-our-love-affair-with-broken-mobile-phones/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:39 pm - WARNING: Unable to download "http://www.amta.org.au/amta/news/51135.2g-networks-are-switching-off",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-04/how-old-is-my-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:50:39 pm - WARNING: Unable to download "http://www.insidewaste.com.au/site/features/1051434/mobile-conversations-mobile-phone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-04/how-old-is-my-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:50:39 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-04/how-old-is-my-mobile/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:39 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-03/revealed-our-top-local-council-recyclers/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:41 pm - WARNING: Unable to download "http://www.insidewaste.com.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-03/can-social-causes-motivate-us-to-recycle-more/index.html",
+	because its path is not allowed
+24/6/17, 4:50:41 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-03/can-social-causes-motivate-us-to-recycle-more/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:42 pm - WARNING: Unable to download "http://ozharvest.org",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-03/how-aussies-old-broken-phones-dialled-up-60-000-meals-for-those-in-need/index.html",
+	because its path is not allowed
+24/6/17, 4:50:42 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2017-03/how-aussies-old-broken-phones-dialled-up-60-000-meals-for-those-in-need/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:42 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-12/shoppers-urged-to-recycle-as-millions-of-mobiles-hit-the-shelves/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:43 pm - WARNING: Unable to download "http://mobilemuster.com.au/news/terms-and-conditions-mobile-for-a-meal/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-12/turn-your-mobile-into-a-meal/index.html",
+	because its path is not allowed
+24/6/17, 4:50:43 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-12/turn-your-mobile-into-a-meal/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:43 pm - WARNING: Unable to download "https://exchange.telstra.com.au/2016/08/04/make-switch-2g-network/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/recycling-your-2g-mobile-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:50:43 pm - WARNING: Unable to download "https://yescrowd.optus.com.au/t5/Blog/2G-Network-Closure-Update/ba-p/178495",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/recycling-your-2g-mobile-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: Unable to download "http://www.vodafone.com.au/media/vodafone-to-switch-off-2g-network-next-year/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/recycling-your-2g-mobile-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/recycling-your-2g-mobile-phone/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:44 pm - WARNING: Unable to download "http://recyclingweek.planetark.org/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-11/national-recycling-week-so-you-think-you-can-recycle/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: Unable to download "https://www.youtube.com/embed/x1DiRlpgRUw?feature=oembed",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-11/national-recycling-week-so-you-think-you-can-recycle/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: Unable to download "http://recyclingweek.planetark.org/documents/doc-1451-nrw-2016-report-so-you-think-you-can-recycle.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-11/national-recycling-week-so-you-think-you-can-recycle/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: Unable to download "http://recyclingweek.planetark.org/images/middle/image-4130-read-the-report.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-11/national-recycling-week-so-you-think-you-can-recycle/index.html",
+	because its path is not allowed
+24/6/17, 4:50:44 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-11/national-recycling-week-so-you-think-you-can-recycle/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:45 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-07/mobilemuster-recognises-top-workplace-collectors/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:45 pm - WARNING: Unable to download "http://www.oppo.com/au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/mobilemuster-announces-oppo-as-new-member-of-national-recycling-program/index.html",
+	because its path is not allowed
+24/6/17, 4:50:45 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-10/mobilemuster-announces-oppo-as-new-member-of-national-recycling-program/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:45 pm - WARNING: Unable to download "http://www.ableaustralia.org.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-08/donate-your-old-smartphone-to-enable-australias-deafblind-community-to-reconnect/index.html",
+	because its path is not allowed
+24/6/17, 4:50:46 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-07/students-learn-about-mobile-recycling-and-help-protect-chimpanzee-habitats/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:46 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-08/donate-your-old-smartphone-to-enable-australias-deafblind-community-to-reconnect/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:46 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2016-06/mobilemusters-recycling-awards-celebrate-top-councils/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:49 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:56 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools.html"
+	because it uses JavaScript
+24/6/17, 4:50:56 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/send-us-your-work/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:57 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/run-a-muster/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:57 pm - WARNING: Unable to download "javascript:MobileCalulator2()",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/calculator/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:57 pm - WARNING: Unable to download "javascript:MobileCalulator3()",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/calculator/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:50:57 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/calculator/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:57 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/early-learning-module/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELT1794",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1689",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELT1607",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1700",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELA1512",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1714",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1720",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1725",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1736",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1756",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1750",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACELT1601",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACELT1791",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1751",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACELT1794",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1746",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACELY1741",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACELY1811",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE228",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE230",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.abc.net.au/btn/story/s3953606.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.youtube.com/watch?v=kEKE_W60h2w&feature=player_embedded",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "https://youtu.be/28DDaguoweY",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "https://youtu.be/fBlfpWCX8-k",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://staging.mobilemuster.com.au/media/26570/worksheet6_mobile_phone_cartoon.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://prezi.com/y0soxw96qhjv/why-is-it-important-to-recycle-phones/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.toondoo.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.abc.net.au/btn/story/s3507210.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.bitstrips.com/create/comic",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.comicpile.com/comic-strips",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.flummery.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.heromachine.com/heromachine-2-5-character-portrait-creator/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://planetarc.s3-website-ap-southeast-2.amazonaws.com/index.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/GeneralCapabilities/literacy/introduction/introduction",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/GeneralCapabilities/critical-and-creative-thinking/introduction/introduction",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/GeneralCapabilities/personal-and-social-capability/introduction/introduction",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/contentdescription/ACHGK025",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/science/curriculum/f-10?layout=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE217",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-to-run-a-muster/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE220",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACTDEK023)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycling-mobile-phones/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://schoolsrecycle.planetark.org/recyclerescue",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://cartridges.planetark.org/involvement/whathappens.cfm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/humanities-and-social-sciences/history/curriculum/f-10?layout=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS051",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/english/curriculum/f-10?layout=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "https://www.youtube.com/watch?v=kEKE_W60h2w&feature=player_embedded",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.thelittlebigbookclub.com.au/sites/thelittlebigbookclub.com.au/files/files/title_resource/clancy_and_millie_and_the_very_fine_house_learning_time.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.seussville.com/Educators/lorax_classroom/educatorlorax_discuss.php",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:58 pm - WARNING: Unable to download "http://www.workingtitlepress.com.au/teachers_notes.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACELY1705",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACELY1707",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS102",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS120",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "https://www.youtube.com/watch?feature=player_detailpage&v=rWfqkrAM8IY",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "https://prezi.com/lj8_n8tetxtf/history-of-mobile-phones/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACMSP119",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/mathematics/curriculum/f-10?layout=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACSIS090",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACSIS218",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.amta.org.au/pages/Member.Links",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACSIS093",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://news.bbc.co.uk/2/hi/programmes/click_online/8523653.stm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "https://en.wikipedia.org/wiki/Mobile_phone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "https://en.wikipedia.org/wiki/Smartphone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:59 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html"
+	because it uses JavaScript
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=ACSHE217",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE082",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE083",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSSU097",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE099",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE100",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "https://prezi.com/muxx4_hgqcw7/how-are-mobile-phones-made-pt-1/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://prezi.com/fdjut3ytlovc/how-are-mobile-phones-made-pt-2/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://prezi.com/rzjrciooqaye/how-are-mobile-phones-made-pt-3/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://prezi.com/z5il-hiz0oml/how-are-mobile-phones-made-pt-4/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:50:59 pm - WARNING: Unable to download "http://www.ted.com/playlists/28/sustainability_by_design.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	because its path is not allowed
+24/6/17, 4:51:00 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:01 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACSHE220)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/from-waste-to-resources/index.html",
+	because its path is not allowed
+24/6/17, 4:51:01 pm - WARNING: Unable to download "https://vimeo.com/88409992",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/from-waste-to-resources/index.html",
+	because its path is not allowed
+24/6/17, 4:51:01 pm - WARNING: Unable to download "http://www.microsoft.com/en/mobile/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/from-waste-to-resources/index.html",
+	because its path is not allowed
+24/6/17, 4:51:01 pm - WARNING: Unable to download "https://www.youtube.com/watch?v=rmlPgLUWs78",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/from-waste-to-resources/index.html",
+	because its path is not allowed
+24/6/17, 4:51:01 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/from-waste-to-resources/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/humanities-and-social-sciences/geography/curriculum/f-10?layout=1",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS041",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS045",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS046",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://staging.mobilemuster.com.au/media/26493/factsheet5_mobile_phone_resources.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://staging.mobilemuster.com.au/media/26542/worksheet3_mobile_phone_resources_map.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.oresomeresources.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: Unable to download "http://www.oresomeresources.com/resources_view/resource/unit_of_work_envirosmart/section/resources/parent/australian_curriculum/category/science_k2",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	because its path is not allowed
+24/6/17, 4:51:02 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACAVAM126)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACAVAM128)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACAVAR131)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Glossary?a=E&t=media%20texts",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1739",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1749",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.chrisjordan.com/gallery/rtn/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://mobilemuster.com.au/schools",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.ted.com/talks/chris_jordan_pictures_some_shocking_stats",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS039",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS046",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGK068",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGK071",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACTDEK040)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACTDEK041)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.packagingcovenant.org.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.sustainability.vic.gov.au/www/html/3665-%20batteryback-faqs.asp?intSiteID=4",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://aldi.com.au/au/html/service/23834.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.epa.sa.gov.au e. MobileMuster",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.drummuster.com.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.fluorocycle.org.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.afgc.org.au/psf.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/waste-to-art/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://staging.mobilemuster.com.au/media/26514/factsheet8_product_stewardship.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://goanimate4schools.com/public_index",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://en.wikipedia.org/wiki/Product_stewardship",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: Unable to download "http://www.environment.gov.au/settlements/waste/product-stewardship/index.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	because its path is not allowed
+24/6/17, 4:51:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:03 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/terms-and-conditions/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSSU116",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSSU124",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACMSP284",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACSIS139)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACSIS144)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Search?q=(ACSIS145)",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.tes-amm.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: Unable to download "http://www.plasmar.com.au/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:04 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:05 pm - WARNING: "http://api.recaptcha.net/challenge?k=6Lcv4wsTAAAAAPJETgWtfvKd5ByC3G-G3xxNdNYE" was redirected to
+	"http://www.google.com/recaptcha/api/challenge?k=6Lcv4wsTAAAAAPJETgWtfvKd5ByC3G-G3xxNdNYE"
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1726",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1810",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACELY1738",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS052",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS054",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS055",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS056",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.youtube.com/watch?v=sW_7i6T_H78",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.youtube.com/watch?v=UkbpiL9UsY8",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "https://www.youtube.com/watch?v=UkbpiL9UsY8",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://en.wikipedia.org/wiki/Moore’s_law",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.basel.int/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.basel.int/DNNAdmin/AllNews/tabid/2290/ctl/ArticleView/mid/7518/articleId/893/Guidance-document-on-the-environmentally-sound-management-of-used-and-end-of-life-mobile-phones.aspx",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: Unable to download "http://www.gsma.com/mobilefordevelopment/lifestories",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	because its path is not allowed
+24/6/17, 4:51:05 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:06 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE120",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue-secondary/index.html",
+	because its path is not allowed
+24/6/17, 4:51:06 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE135",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue-secondary/index.html",
+	because its path is not allowed
+24/6/17, 4:51:06 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue-secondary/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:12 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/send-in-your-work/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACTDEK040",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACTDEK041",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS070",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://www.australiancurriculum.edu.au/Year10",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://www.compoundchem.com/wp-content/uploads/2014/02/The-Chemical-Elements-of-a-Smartphone-v2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://vimeo.com/60108437",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://vimeo.com/fairphone",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://prezi.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:13 pm - WARNING: Unable to download "http://piktochart.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:14 pm - WARNING: Unable to download "http://www.coolaustralia.org/activity/peer-assessment-rubric/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	because its path is not allowed
+24/6/17, 4:51:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:14 pm - WARNING: Unable to download "https://itunes.apple.com/au/app/recycle-rescue/id1041868990?mt=8",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:51:14 pm - WARNING: Unable to download "https://play.google.com/store/apps/details?id=com.PlanetArk.RecycleRescue",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/recycle-rescue/index.html",
+	because its path is not allowed
+24/6/17, 4:51:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/recycle-rescue/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:14 pm - WARNING: Unable to download "javascript:void();",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mix-game/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:14 pm - WARNING: Unable to download "javascript:void();",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mix-game/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:14 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:15 pm - WARNING: Unable to download "javascript:void(0);",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/timeline-game/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:15 pm - WARNING: Unable to download "javascript:void(0);",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/timeline-game/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:15 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/timeline-game/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:23 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/make-a-poster/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/downloads/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:51:32 pm - WARNING: "http://www.youtube.com/embed/ZZ11C1e4Ep8?list=PLmPwkr7R_vUlVAYVnMN5r8aBOd8QYC1ub" was redirected to
+	"https://www.youtube.com/embed/ZZ11C1e4Ep8?list=PLmPwkr7R_vUlVAYVnMN5r8aBOd8QYC1ub"
+24/6/17, 4:51:32 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/resources/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:32 pm - WARNING: "http://www.infoactiv.com.au/services/mobilemuster/bookingform.cfm" was redirected to
+	"https://portal.infoactiv.com/mmbooking.ssp?"
+24/6/17, 4:51:33 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/district-council-of-mount-barker-wins-mobilemuster-s-national-excellence-award/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:33 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/brisbane-city-council-wins-top-state-national-recycler-in-mobilemuster-s-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:33 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/district-council-of-mount-barker-wins-mobilemuster-s-national-excellence-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:33 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/brisbane-city-council-wins-top-state-national-recycler-in-mobilemuster-s-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:34 pm - WARNING: Unable to download "http://www.facebook.com/media/set/?set=a.241174255966549.59211.170062299744412&type=3",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/recognising-the-recycling-efforts-of-workplaces/index.html",
+	because its path is not allowed
+24/6/17, 4:51:34 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/shire-of-trayning-wins-top-recycler-in-mobilemuster-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:34 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/city-of-sydney-wins-top-state-recycler-in-mobilemuster-s-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:35 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/city-of-stirling-wins-top-state-recycler-in-mobilemuster-s-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/recognising-the-recycling-efforts-of-workplaces/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/shire-of-trayning-wins-top-recycler-in-mobilemuster-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/burnie-city-council-wins-top-state-recycler-in-mobilemuster-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/city-of-sydney-wins-top-state-recycler-in-mobilemuster-s-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: Unable to download "mailto:rose.read@amta.org.au",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/nillumbik-shire-council-wins-top-state-recycler-in-mobilemuster-s-awards/index.html",
+	because it is an invalid or unsupported URL
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/city-of-stirling-wins-top-state-recycler-in-mobilemuster-s-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/alexandrina-council-wins-top-state-recycler-in-mobilemusters-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/burnie-city-council-wins-top-state-recycler-in-mobilemuster-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2015-06/nillumbik-shire-council-wins-top-state-recycler-in-mobilemuster-s-awards/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/brisbane-city-council-wins-national-e-waste-recycling-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: Unable to download "http://www.cityofsydney.nsw.gov.au/live/waste-and-recycling/e-waste-and-chemicals/battery-mobile-and-light-bulb-recycling",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/city-of-sydney-wins-national-e-waste-recycling-award/index.html",
+	because its path is not allowed
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/city-of-ryde-wins-national-e-waste-recycling-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/city-of-sydney-wins-national-e-waste-recycling-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/media-release-mobilemusters-e-waste-recycling-awards-recognise-five-councils/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/hay-shire-council-wins-national-e-waste-recycling-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/city-of-mitcham-wins-national-e-waste-recycling-award/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:37 pm - WARNING: "http://www.storageking.com.au/" was redirected to
+	"https://www.storageking.com.au/"
+24/6/17, 4:51:38 pm - WARNING: "http://www.youtube.com/embed/pCqrdx-Rm10" was redirected to
+	"https://www.youtube.com/embed/pCqrdx-Rm10"
+24/6/17, 4:51:40 pm - WARNING: "http://www.ecoactiv.com.au/ewastebox" was redirected to
+	"http://www.ecoactiv.com.au/ewastebox/"
+24/6/17, 4:51:40 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/terms-and-conditions-mobile-for-a-meal/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:40 pm - WARNING: "https://exchange.telstra.com.au/2016/08/04/make-switch-2g-network/" was redirected to
+	"https://exchange.telstra.com.au/make-switch-2g-network/"
+24/6/17, 4:51:41 pm - WARNING: "http://ozharvest.org/" was redirected to
+	"http://www.ozharvest.org/"
+24/6/17, 4:51:42 pm - WARNING: Unable to download "https://www.youtube.com/embed/FU-1LQk6KGg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/able-australia/index.html",
+	because its path is not allowed
+24/6/17, 4:51:42 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/able-australia/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:42 pm - WARNING: "http://www.oppo.com/au/" was redirected to
+	"http://www.oppo.com/au/index.html"
+24/6/17, 4:51:43 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=2757.html"
+	because it uses JavaScript
+24/6/17, 4:51:45 pm - ERROR: Download of "http://www.mobilemuster.com.au/schools/muster-kids-zone/calculator/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/run-a-muster/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:51:45 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=2236.html"
+	because it uses JavaScript
+24/6/17, 4:51:46 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=1975.html"
+	because it uses JavaScript
+24/6/17, 4:51:48 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=2093.html"
+	because it uses JavaScript
+24/6/17, 4:51:54 pm - WARNING: Unable to download "http://www.fontsquirrel.com/fonts/londrina",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/make-a-poster/index.html",
+	because its path is not allowed
+24/6/17, 4:51:54 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/make-a-poster/index.html"
+	because it uses JavaScript
+24/6/17, 4:51:54 pm - WARNING: "http://www.youtube.com/watch?v=kEKE_W60h2w&feature=player_embedded" was redirected to
+	"https://www.youtube.com/watch?v=kEKE_W60h2w&feature=player_embedded"
+24/6/17, 4:51:55 pm - WARNING: "https://youtu.be/28DDaguoweY" was redirected to
+	"https://www.youtube.com/watch?v=28DDaguoweY&feature=youtu.be"
+24/6/17, 4:51:55 pm - WARNING: "https://youtu.be/fBlfpWCX8-k" was redirected to
+	"https://www.youtube.com/watch?v=fBlfpWCX8-k&feature=youtu.be"
+24/6/17, 4:51:56 pm - WARNING: "http://www.bitstrips.com/create/comic" was redirected to
+	"https://www.bitmoji.com/"
+24/6/17, 4:51:56 pm - WARNING: "http://prezi.com/y0soxw96qhjv/why-is-it-important-to-recycle-phones/" was redirected to
+	"https://prezi.com/y0soxw96qhjv/why-is-it-important-to-recycle-phones/"
+24/6/17, 4:51:56 pm - WARNING: "http://www.comicpile.com/comic-strips" was redirected to
+	"http://www.comicpile.com/SdmPZ/comic-strips"
+24/6/17, 4:51:57 pm - WARNING: "http://www.comicpile.com/SdmPZ/comic-strips" was redirected to
+	"http://www.comicpile.com/comic-strips"
+24/6/17, 4:51:58 pm - WARNING: "http://schoolsrecycle.planetark.org/recyclerescue" was redirected to
+	"http://schoolsrecycle.planetark.org/recyclerescue/"
+24/6/17, 4:51:59 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE220",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:51:59 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE217",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:51:59 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/contentdescription/ACHGK025",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/recycle-rescue/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:00 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS051",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/picturing-a-sustainable-world/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:02 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS102",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:02 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHHS120",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/history-of-mobile-phones/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:03 pm - ERROR: Download of "http://www.mobilemuster.com.au/news/collection-results/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/phone-maths/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:05 pm - WARNING: "http://prezi.com/fdjut3ytlovc/how-are-mobile-phones-made-pt-2/" was redirected to
+	"https://prezi.com/fdjut3ytlovc/how-are-mobile-phones-made-pt-2/"
+24/6/17, 4:52:05 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE082",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:06 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSHE099",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/how-are-phones-made/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:06 pm - WARNING: "http://www.ted.com/playlists/28/sustainability_by_design.html" was redirected to
+	"https://www.ted.com/playlists/28/sustainability_by_design.html"
+24/6/17, 4:52:06 pm - WARNING: "http://prezi.com/rzjrciooqaye/how-are-mobile-phones-made-pt-3/" was redirected to
+	"https://prezi.com/rzjrciooqaye/how-are-mobile-phones-made-pt-3/"
+24/6/17, 4:52:06 pm - WARNING: "http://prezi.com/z5il-hiz0oml/how-are-mobile-phones-made-pt-4/" was redirected to
+	"https://prezi.com/z5il-hiz0oml/how-are-mobile-phones-made-pt-4/"
+24/6/17, 4:52:06 pm - WARNING: "https://www.ted.com/playlists/28/sustainability_by_design.html" was redirected to
+	"https://www.ted.com/playlists/28/sustainability_by_design"
+24/6/17, 4:52:08 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS045",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:09 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS046",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:09 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/curriculum/dummycontentdescription/ACHGS041",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/map-your-mobile/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:09 pm - WARNING: "http://www.ted.com/talks/chris_jordan_pictures_some_shocking_stats" was redirected to
+	"https://www.ted.com/talks/chris_jordan_pictures_some_shocking_stats"
+24/6/17, 4:52:12 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS039",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:12 pm - WARNING: "http://www.sustainability.vic.gov.au/www/html/3665-%20batteryback-faqs.asp?intSiteID=4" was redirected to
+	"http://www.sustainability.vic.gov.au/page-not-found?item=%2fwww%2fhtml%2f3665-+batteryback-faqs&user=extranet\Anonymous&site=website"
+24/6/17, 4:52:12 pm - WARNING: "http://www.drummuster.com.au/" was redirected to
+	"http://www.drummuster.org.au/"
+24/6/17, 4:52:13 pm - ERROR: Download of "http://aldi.com.au/au/html/service/23834.htm",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	failed with error code 403 (forbidden)
+24/6/17, 4:52:13 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACHGS046",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:13 pm - WARNING: "http://www.afgc.org.au/psf.html" was redirected to
+	"https://www.afgc.org.au/psf.html"
+24/6/17, 4:52:13 pm - WARNING: "http://www.environment.gov.au/settlements/waste/product-stewardship/index.html" was redirected to
+	"http://www.environment.gov.au/protection/national-waste-policy/product-stewardship"
+24/6/17, 4:52:14 pm - WARNING: "http://goanimate4schools.com/public_index" was redirected to
+	"https://goanimate4schools.com/public_index"
+24/6/17, 4:52:15 pm - ERROR: Download of "http://www.afgc.org.au/psf.html",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/product-stewardship/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:16 pm - ERROR: Download of "http://www.australiancurriculum.edu.au/Curriculum/ContentDescription/ACSSU124",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/whats-in-a-phone/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:19 pm - WARNING: "http://www.youtube.com/watch?v=sW_7i6T_H78" was redirected to
+	"https://www.youtube.com/watch?v=sW_7i6T_H78"
+24/6/17, 4:52:19 pm - WARNING: "http://www.youtube.com/watch?v=UkbpiL9UsY8" was redirected to
+	"https://www.youtube.com/watch?v=UkbpiL9UsY8"
+24/6/17, 4:52:20 pm - WARNING: "http://www.basel.int/DNNAdmin/AllNews/tabid/2290/ctl/ArticleView/mid/7518/articleId/893/Guidance-document-on-the-environmentally-sound-management-of-used-and-end-of-life-mobile-phones.aspx" was redirected to
+	"http://www.basel.int/DNNAdmin/AllNews/tabid/2290/Default.aspx"
+24/6/17, 4:52:20 pm - WARNING: "http://www.gsma.com/mobilefordevelopment/lifestories" was redirected to
+	"https://www.gsma.com/mobilefordevelopment/lifestories"
+24/6/17, 4:52:20 pm - WARNING: "http://www.australiancurriculum.edu.au/Year10" was redirected to
+	"http://www.australiancurriculum.edu.au/Browse?a=E&a=M&a=S&a=H&a=G&a=ENB&a=CNC&a=da&a=dr&a=ma&a=mu&a=va&a=DI&a=DE&a=HPE&y=10"
+24/6/17, 4:52:21 pm - WARNING: "http://www.basel.int/DNNAdmin/AllNews/tabid/2290/Default.aspx" was redirected to
+	"http://www.basel.int/Home/Login/tabid/2276/Default.aspx?returnurl=%2fDNNAdmin%2fAllNews%2ftabid%2f2290%2fDefault.aspx"
+24/6/17, 4:52:21 pm - WARNING: "http://www.basel.int/Home/Login/tabid/2276/Default.aspx?returnurl=%2fDNNAdmin%2fAllNews%2ftabid%2f2290%2fDefault.aspx" was redirected to
+	"https://www.basel.int/Home/Login/tabid/2276/Default.aspx?returnurl=%2fDNNAdmin%2fAllNews%2ftabid%2f2290%2fDefault.aspx"
+24/6/17, 4:52:23 pm - WARNING: "http://prezi.com/" was redirected to
+	"https://prezi.com/"
+24/6/17, 4:52:23 pm - ERROR: Download of "http://prezi.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:24 pm - ERROR: Download of "http://www.gsma.com/mobilefordevelopment/lifestories",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-mobile-reuse-debate/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:25 pm - ERROR: Download of "http://www.mobilemuster.com.au/media/112881/icon_fullsize_150x150.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/recycle-rescue/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:25 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/js/flexcroll.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mix-game/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:26 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/Activities/js/knockout-2.3.0.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is already downloaded
+24/6/17, 4:52:26 pm - WARNING: "http://www.coolaustralia.org/activity/peer-assessment-rubric/" was redirected to
+	"https://coolaustralia.org/activity/peer-assessment-rubric/"
+24/6/17, 4:52:26 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/Activities/js/knockout.mapping-latest.js",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is already downloaded
+24/6/17, 4:52:27 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/popup-correct.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is already downloaded
+24/6/17, 4:52:28 pm - WARNING: "http://piktochart.com/" was redirected to
+	"https://piktochart.com/"
+24/6/17, 4:52:29 pm - ERROR: Download of "http://piktochart.com/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/teachers-guide/the-sustainable-smartphone/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:31 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/popup-hint.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:31 pm - WARNING: Unable to download "http://www.basel.int/DNNAdmin/AllNews/tabid/2290/ctl/ArticleView/mid/7518/articleId/893/Guidance-document-on-the-environmentally-sound-management-of-used-and-end-of-life-mobile-phones.aspx"
+	because the identity of this site can't be verified
+24/6/17, 4:52:32 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/popup-tryagain.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is already downloaded
+24/6/17, 4:52:33 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/images/pic02.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/timeline-game/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:33 pm - WARNING: "https://coolaustralia.org/activity/peer-assessment-rubric/" was redirected to
+	"https://www.coolaustralia.org/activity/peer-assessment-rubric/"
+24/6/17, 4:52:33 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/popup-congratulations.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mapgame/index.html",
+	because it is already downloaded
+24/6/17, 4:52:34 pm - ERROR: Download of "http://www.mobilemuster.com.au/media/4773/mob0018_recycle_here_nocrop.pdf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/resources/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:35 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/councils.html"
+	because it uses JavaScript
+24/6/17, 4:52:36 pm - ERROR: Download of "http://www.mobilemuster.com.au/media/46935/ryde_city_council_winners_250x188.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/media-release-mobilemusters-e-waste-recycling-awards-recognise-five-councils/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:36 pm - ERROR: Download of "http://www.mobilemuster.com.au/councils/local-government-awards/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/articles/2014-06/brisbane-city-council-wins-national-e-waste-recycling-award/index.html",
+	failed with error code 404 (not found)
+24/6/17, 4:52:36 pm - WARNING: May not be able to follow all links on "/Users/life/local/mobilemuster/www.mobilemuster.com.au/workplaces/case-studies/first-national-supports-mobilemusters-pledge/index.html"
+	because it uses JavaScript
+24/6/17, 4:52:37 pm - ERROR: Download of "http://www.mobilemuster.com.au/workplaces/able-australia/",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/able-australia/index.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:37 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/Activities/images/popup-learnmore.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/schools/muster-games/mix-game/index.html",
+	because it is already downloaded
+24/6/17, 4:52:38 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/simplibd-webfont.eot?",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:39 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/simpliit-webfont.eot?",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:41 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/vagrounded-bold-webfont.svg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:42 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/vagrounded-light-webfont.woff",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:43 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/vagroundedstd-bold-webfont.svg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:44 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/vagrounded-black-webfont.ttf",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:44 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/images/option-bg.gif",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/js/jquery.selectBox.css",
+	failed with error code 404 (not found)
+24/6/17, 4:52:44 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/js/jquery.selectBox-tick.gif",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/js/jquery.selectBox.css",
+	failed with error code 404 (not found)
+24/6/17, 4:52:45 pm - ERROR: Download of "http://www.mobilemuster.com.au/ImageGen.ashx?image=/media/36980/drawer.jpg&width=190",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=1975.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:46 pm - ERROR: Download of "http://www.mobilemuster.com.au/ImageGen.ashx?image=/media/39920/crowd2.jpg&width=190",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/news/image-gallery/index-c=2093.html",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:46 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/sawtooth.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:46 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/leftBox-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:46 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/bg-dark.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:47 pm - WARNING: "http://www.fontsquirrel.com/fonts/londrina" was redirected to
+	"https://www.fontsquirrel.com/fonts/londrina"
+24/6/17, 4:52:47 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-downloads.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:47 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/rightBox-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:47 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-sendUsYourWork.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:48 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/arrow.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:48 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-mobile.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:49 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-runAmuster.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:50 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/mmkz_bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:52 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/instructions.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:52 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/section-largeBox2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:53 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-mobilephone.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:54 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/leftToGo.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:55 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-hint.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:55 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/section-largeBox-r2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:55 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/correct.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:55 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/learnMore.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:55 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/section-largeBox-r1.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:56 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/prev-next.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:56 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/section-largeBox.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:56 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section-smallBox.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:56 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-calculator.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:57 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/line.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:57 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/white-circle.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:57 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/schoolsLogin.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:58 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/rhs-login-field.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:58 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-login-small.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:59 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-rhs-runMuster.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:52:59 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-games.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:59 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-rhs-pickup-satchel.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:59 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/mmkz_bg_light.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:59 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/rhs-search-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:52:59 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-rhs-download.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:00 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-search-ok.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:00 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/leftToGo-map.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:00 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/mapHeader.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:00 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/section2-largeBox2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:00 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/mapFooter.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:01 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/mm_kz_game_map.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/year-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/instructions-map.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/mixFooter.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section3-largeBox2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section3-largeBox-r2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/gameMix.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:02 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/check.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:04 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section2-largeBox2-inner.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:05 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/space-white.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:06 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section3-largeBox2-inner.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:07 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/leftToGo-mix.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:08 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/small-frame.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:08 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/btn-ok.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:09 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/popup-bottom.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:09 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/btn-ok-red.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:09 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/btn-retry.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:09 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/bar-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:11 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/btn-close.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:11 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/btn-playAgain.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:12 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/button-hint-map.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:13 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/playbutton.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:13 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/line.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:13 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg02.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:14 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg03.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:15 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg04.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:16 pm - ERROR: Download of "http://www.mobilemuster.com.au/Activities/css/fonts/vagrounded-black-webfont.svg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/Activities/css/fonts/stylesheet.css",
+	failed with error code -1001 (The request timed out.)
+24/6/17, 4:53:16 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg05.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:17 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/title_bg07.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:17 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg08.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:17 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/title_bg06.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:18 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg10.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:19 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/mix-bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:20 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section-largeBox2-inner.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:21 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/button-hist.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:21 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg09.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:22 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/gameHist.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:22 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/input_02bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:23 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/sendyouwork_button.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:25 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/browse_button.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/popup_bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/agree_bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/icon-minus.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/icon-plus.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/button-sendinyouwork.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/button-go.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:25 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/textareabg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:25 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/pupop_bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:26 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/calculate-2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:26 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/calculate-1.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:26 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/button-calculate.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:27 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/css/fonts/stylesheet.css",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:28 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/btn-okGotIt-green.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:29 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/title_bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:31 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/section2-largeBox-r2.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1001 (The request timed out.)
+24/6/17, 4:53:31 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/input_01bg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:32 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/form/file_inputbg.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:32 pm - ERROR: Download of "http://www.mobilemuster.com.au/activities/images/bar.png",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/flexcrollstyles.css",
+	failed with error code -1004 (Could not connect to the server.)
+24/6/17, 4:53:34 pm - WARNING: Unable to download "http://www.mobilemuster.com.au/activities/images/form/seemore.jpg",
+	referenced from "/Users/life/local/mobilemuster/www.mobilemuster.com.au/activities/css/style.css",
+	because it is already downloaded
+24/6/17, 4:53:47 pm - WARNING: "http://www.fontsquirrel.com/fonts/londrina" was redirected to
+	"https://www.fontsquirrel.com/fonts/londrina"
+24/6/17, 4:53:49 pm - STATUS: Level = 5, Files Downloaded = 841, Files Remaining = 0, Errors = 93
+	Connections = 10, Time to Downloaded = 236 seconds
+
+---------------------
