@@ -1,5 +1,3 @@
-# mobilemuster.com.au Back-up &
-
 This website back-up is a proactive and precautionary measure; safeguarding against disaster (website crash, server corruption, ransomware attacks, etc) and providing the fastest and cheapest restoration option of mobilemuster.com.au.
 
 This replication of mobilemuster.com.au includes...
