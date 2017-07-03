@@ -10,7 +10,7 @@ This replication of mobilemuster.com.au includes...
 
 This replication of mobilemuster.com.au excludes...
 
-— The Umbraco CMS and database
+- The Umbraco CMS and database
 - The Site search functionality
 - The store locator functionality
 - All build files and frameworks
