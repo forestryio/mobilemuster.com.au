@@ -1,9 +1,17 @@
-# mobilemuster.com.au
+# mobilemuster.com.au Back-up &
 
-An *almost-fully-functioning back-up of mobilemuster.com.au.
+This website back-up is a proactive and precautionary measure; safeguarding against disaster (website crash, server corruption, ransomware attacks, etc) and providing the fastest and cheapest restoration option of mobilemuster.com.au.
 
-*
-- Site search doesn't work
-- The store locator does not work
+This replication of mobilemuster.com.au includes...
 
-However this back-up could be used as the quickest and cheapest restoration of mobilemuster.com.au in the worst-case scenario event of a website crash or corruption.
+- All content: pages, posts, new articles, etc.
+- All media: images, .pdfs (Annual Reports, campaigns, etc), logos, etc.
+- All design elements: fonts, stylesheets, etc.
+- All scripts: Google, facnybox, jQuery, etc.
+
+
+This replication of mobilemuster.com.au excludes...
+— The Umbraco CMS and database
+- The Site search functionality
+- The store locator functionality
+- All build files and frameworks
