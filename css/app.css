@@ -11094,10 +11094,10 @@ input, textarea, select {
   color: #212121; }
 
 .bglogo {
-  background: #30a137 url(img/mm/mmlogo-sm.png) bottom right no-repeat; }
+  background: #30a137 url(../img/mm/mmlogo-sm.png) bottom right no-repeat; }
 
 .bglogo-full {
-  background: #30a137 url(img/mm/mmlogo-full.png) bottom right no-repeat; }
+  background: #30a137 url(../img/mm/mmlogo-full.png) bottom right no-repeat; }
 
 .usa-nav-secondary {
   position: absolute;
