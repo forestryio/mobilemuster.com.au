@@ -11128,10 +11128,10 @@ input, textarea, select {
   color: #212121; }
 
 .bglogo {
-  background: #30a137 url(/img/mm/mmlogo-blk-sm.png) bottom right no-repeat; }
+  background: #30a137 url(../img/mm/mmlogo-sm-blk.png) bottom right no-repeat; }
 
 .bglogo-full {
-  background: #30a137 url(/img/mm/mmlogo-full-blk.png) bottom right no-repeat; }
+  background: #30a137 url(../img/mm/mmlogo-full-blk.png) bottom right no-repeat; }
 
 .usa-banner-content {
   padding-bottom: 1rem;
