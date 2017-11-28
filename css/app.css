@@ -11133,6 +11133,9 @@ input, textarea, select {
 .bglogo-full {
   background: #30a137 url(../img/mm/mmlogo-full-blk.png) bottom right no-repeat; }
 
+.bg-light-gray {
+  background-color: #EEEEEE; }
+
 .usa-banner-content {
   padding-bottom: 1rem;
   padding-top: 1rem; }
