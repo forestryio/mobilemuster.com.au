@@ -11109,6 +11109,9 @@ input, textarea, select {
 .bgblue {
   background-color: #3BBAF1; }
 
+textarea {
+  height: 16rem; }
+
 body {
   border-top: 0px solid #30a137; }
 
