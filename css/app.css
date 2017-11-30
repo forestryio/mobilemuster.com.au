@@ -11165,7 +11165,8 @@ input, textarea, select {
   background-image: none; }
 
 .usa-hero-callout {
-  max-width: none; }
+  max-width: none;
+  padding: 3rem 1.5rem; }
 
 .usa-footer-logo-img {
   max-width: none; }
