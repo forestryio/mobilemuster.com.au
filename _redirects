@@ -1,7 +1,9 @@
 # redirects for Netlify - https://www.netlify.com/docs/redirects/
 http://m.mobilemuster.com.au/  https://www.mobilemuster.com.au/  301
-/about-us  /about/  301
-/post-them-in/  /recycling/ 301
+/about-us/  /about/  301
+/contact-us/  /contact/  301
 /phone-disposal/  /recycling/  301
-/contact-us  /contact/  301
+/post-them-in/  /recycling/ 301
 /recycle-a-mobile  /recycling/  301
+/schools/  /education/  301
+/schools/*  /education/  301
