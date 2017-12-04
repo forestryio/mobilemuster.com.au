@@ -1,5 +1,5 @@
 # redirects for Netlify - https://www.netlify.com/docs/redirects/
-http://m.mobilemuster.com.au/*  https://www.mobilemuster.com.au/:splat  301
+http://m.mobilemuster.com.au/  https://www.mobilemuster.com.au/  301
 /about-us  /about/  301
 /post-them-in/  /recycling/ 301
 /phone-disposal/  /recycling/  301
