@@ -5,5 +5,6 @@ http://m.mobilemuster.com.au/  https://www.mobilemuster.com.au/  301
 /phone-disposal/  /recycling/  301
 /post-them-in/  /recycling/ 301
 /recycle-a-mobile  /recycling/  301
+/retailer/*  /education/  301
 /schools/  /education/  301
 /schools/*  /education/  301
