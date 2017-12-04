@@ -1,6 +1,7 @@
 # redirects for Netlify - https://www.netlify.com/docs/redirects/
 /about-us/*  /about/  301
 /contact-us/  /contact/  301
+/councils/  /partners/  301
 /news/*  /news/  302
 /phone-disposal/  /recycling/  302
 /post-them-in/  /recycling/ 302
