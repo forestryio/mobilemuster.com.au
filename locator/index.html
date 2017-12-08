@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>
-    MobileMuster Contact 
+    MobileMuster Locator 
 </title>
 
 
@@ -197,12 +197,9 @@
     <h2 class="f1-m f1-l lh-title mv0">
       <span class="bggreen lh-copy white pa1 tracked-tight">
         
-          <span class="">&nbsp;</span>Follow us on Twitter, Facebook, Instagram <span class="">&nbsp;</span>
+          <span class="">&nbsp;</span>Find your closest drop-off point<span class="">&nbsp;</span>
           <span class=""><br></span>
         
-        
-          <span class="">&nbsp;</span> and contact us via email too. <span class="">&nbsp;</span>
-          <span class=""><br></span>
         
         
       </span>
@@ -220,38 +217,50 @@
 </section>
 
   
-    <main class='pt0 usa-grid usa-section usa-content usa-layout-docs' id="main-content">
-    <div class="mb6 w-70">
-    <h4 class="">If you are a registered site and need to book in a free pick-up contact our team on 1800 249 113 or by <a target="_blank" href="https://bookings.mobilemuster.com.au/">booking online</a>.  For any other matters about the program please use the form below or email us <a href="mailto:mobilemuster@amta.org.au">mobilemuster@amta.org.au</a>.
-    </h4>
+    <div id="" class="algolia content-wrap usa-grid">
+
+    
+     <header>
+
+       <div id="search-input" class="mb3"></div>
+       <div id="search-input-icon"></div>
+     </header>
+
+     <main>
+
+       <div id="">
+         
+         <div id="stats"></div>
+         <div id="hits"></div>
+         <div id="pagination"></div>
+       </div>
+     </main>
+
+
+     
+
+     <script type="text/html" id="hit-template"><div class="hit"><div class="description body-text hit-content"><h1 class="mb0 b f2 heading hit-name">{{{_highlightResult.SiteName.value}}}</h1><div class="header-description"><p class="mv0"><span class="hit-StreetNumber">{{{_highlightResult.StreetNumber.value}}}</span> <span class="hit-StreetAddress">{{{_highlightResult.StreetAddress.value}}}</span>, <span class="hit-Suburb">{{{_highlightResult.Suburb.value}}}</span>, <span class="hit-State">{{{_highlightResult.State.value}}}</span> <span class="hit-Postcode">{{{_highlightResult.Postcode.value}}}</span> </span></p></div></div></div></script>
+
+
+
+     <script type="text/html" id="no-results-template"><div id="no-results-message" "class="tl""><p>There are no <em>"{{query}}"</em> drop-off points. <a href="../partners/#become-a-partner">Become a partner</a></p></div></script>
+
+
+     
+
+     
+
+     
+     
+     
 </div>
 
-<div class="mt6 w-70">
 
-  <form name="Contact Form" action="/thank-you/" netlify-honeypot="bot-field" class="w-100 w-80-ns pa1 black" netlify >
 
-  <label for="First Name"><span class="mmgreen">*</span>First Name</label>
-    <input class="usa-input-success" id="First Name" name="First Name" type="text">
 
-  <label for="Surname"><span class="mmgreen">*</span>Surname</label>
-    <input class="usa-input-success" id="Surname" name="Surname" type="text">
 
-  <label for="Email Address"><span class="mmgreen">*</span>Email Address</label>
-    <input class="usa-input-success" id="Email Address" name="Email Address" type="text">
 
-  <label for="Subject">Subject</label>
-    <input class="usa-input-success" id="Subject" name="Subject" type="text">
 
-  
-
-  <label for="Message">*Message</label>
-  <textarea class="usa-input-success" id="Message" name="Message"></textarea>
-
-  <div class="button_wrapper">
-    <button type="submit" value="Send Contact Form" class="bggreen usa-button">Submit</button>
-  </div>
-
-</form>
 
 
   
