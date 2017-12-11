@@ -31,7 +31,7 @@ function app(opts) {
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#search-input',
-      placeholder: 'Type a suburb, postcode, or business name',
+      placeholder: 'Type a suburb or postcode',
     })
   );
 

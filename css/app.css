@@ -11124,7 +11124,9 @@ a:hover {
 a:visited {
   color: #222; }
 
+.green,
 a.green,
+.mmgreen,
 .mmgreen .usa-section-dark a:hover {
   color: #30a137; }
 
