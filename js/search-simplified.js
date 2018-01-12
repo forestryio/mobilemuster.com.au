@@ -194,7 +194,7 @@ var aptsHits = instantsearch.widgets.hits({
   container: document.querySelector('#hits'),
   hitsPerPage: 10,
   templates: {
-    item: '<strong>{{{_highlightResult.SiteName.value}}}</strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}} {{{_highlightResult.Postcode.value}}}',
+    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}} {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
     empty: getTemplate('no-results')
   }
 });
