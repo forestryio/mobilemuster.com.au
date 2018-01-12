@@ -18,6 +18,8 @@
           <link rel="stylesheet" href='https://www.mobilemuster.com.au/css/app.css'>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
           <link rel="stylesheet" type="text/css" href="../css/algolia.css">
+          <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+          <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
           
           <style>
             .dn { display: none; }
@@ -105,6 +107,10 @@
               background-color: rgba(58, 150, 207, 0.1);
               padding: 2px 0 2px 2px; }
             .mmgreen { color: #30a137;}
+            #map {
+              width: 100%;
+              height: 300px;
+            }
           </style>
 
         
@@ -140,6 +146,8 @@
     </head>
 
     <body class=" /news/ mt4 layout-demo">
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2JRul_oIETYF86v5fSBFRMWeY-1mbCA&libraries=places"></script>
 
 
       
@@ -584,7 +592,7 @@
     <div class="usa-grid">
       <div class="cf usa-footer-logo usa-width-one-third">
         <img class="db mb2 usa-footer-logo-img" src='../img/mm/mobile-muster-logo-full-sm.png' alt="Logo image">
-        <h4 class="db pl0 usa-footer-logo-heading">&copy; 2017 MobileMuster</h4>
+        <h4 class="db pl0 usa-footer-logo-heading">&copy; 2018 MobileMuster</h4>
         <img class="dib mt4  mb2" src='../img/mm/product-stewardship.png' alt="Logo image">
         <br><br>
         <img class="dib ml0 fl usa-footer-logo-img" src='../img/logos/bw/amta.jpg' alt="Logo image">
