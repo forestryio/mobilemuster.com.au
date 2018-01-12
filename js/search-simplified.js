@@ -218,6 +218,26 @@ var customMapWidget = {
     // https://developers.google.com/maps/documentation/javascript/reference#Autocomplete
     var place = this._autocomplete.getPlace();
 
+    // Try HTML5 geolocation.
+            if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(function(position) {
+                var pos = {
+                  lat: position.coords.latitude,
+                  lng: position.coords.longitude
+                };
+
+                infoWindow.setPosition(pos);
+                infoWindow.setContent('Location found.');
+                infoWindow.open(map);
+                map.setCenter(pos);
+              }, function() {
+                handleLocationError(true, infoWindow, map.getCenter());
+              });
+            } else {
+              // Browser doesn't support Geolocation
+              handleLocationError(false, infoWindow, map.getCenter());
+            }
+
     if (place.geometry === undefined) {
       // user did not select any place, see https://developers.google.com/maps/documentation/javascript/reference#Autocomplete
       // events paragraph
