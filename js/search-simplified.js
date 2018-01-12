@@ -192,9 +192,9 @@ var apts = instantsearch({
 
 var aptsHits = instantsearch.widgets.hits({
   container: document.querySelector('#hits'),
-  hitsPerPage: 10,
+  hitsPerPage: 15,
   templates: {
-    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}} {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
+    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}} {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
     empty: getTemplate('no-results')
   }
 });
@@ -217,26 +217,6 @@ var customMapWidget = {
   _handlePlaceChange: function(place) {
     // https://developers.google.com/maps/documentation/javascript/reference#Autocomplete
     var place = this._autocomplete.getPlace();
-
-    // Try HTML5 geolocation.
-            if (navigator.geolocation) {
-              navigator.geolocation.getCurrentPosition(function(position) {
-                var pos = {
-                  lat: position.coords.latitude,
-                  lng: position.coords.longitude
-                };
-
-                infoWindow.setPosition(pos);
-                infoWindow.setContent('Location found.');
-                infoWindow.open(map);
-                map.setCenter(pos);
-              }, function() {
-                handleLocationError(true, infoWindow, map.getCenter());
-              });
-            } else {
-              // Browser doesn't support Geolocation
-              handleLocationError(false, infoWindow, map.getCenter());
-            }
 
     if (place.geometry === undefined) {
       // user did not select any place, see https://developers.google.com/maps/documentation/javascript/reference#Autocomplete
