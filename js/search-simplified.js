@@ -215,14 +215,13 @@ var customMapWidget = {
         position: {lat: hit._geoloc.lat, lng: hit._geoloc.lng},
         map: this._map,
         title: hit.SiteName
-
       });
 
       var infowindow = new google.maps.InfoWindow({
         content:
               '<span class="b">' + hit.SiteName + '</span><br>' +
               '<span class="">' + hit.ShopLevel + '&nbsp;' + hit.Building + '</span><br>' +
-              '<span class="">' + hit.StreetNumber + '&nbsp;' + hit.StreetAddress + '<br>' + hit.State + '&nbsp;' + hit.Postcode +
+              '<span class="">' + hit.StreetNumber + '&nbsp;' + hit.StreetAddress + '<br>' + '<span class="b">' + hit.Suburb + '</span>' + '&nbsp;'+ hit.State + '&nbsp;' + hit.Postcode +
               '</span>'
       });
 
