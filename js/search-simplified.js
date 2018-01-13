@@ -194,7 +194,7 @@ var aptsHits = instantsearch.widgets.hits({
   container: document.querySelector('#hits'),
   hitsPerPage: 15,
   templates: {
-    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}} {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
+    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}}, {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
     empty: getTemplate('no-results')
   }
 });
@@ -207,13 +207,32 @@ var searchBox = instantsearch.widgets.searchBox({
 var customMapWidget = {
   _autocompleteContainer: document.querySelector('#places'),
   _mapContainer: document.querySelector('#map'),
-  _hitToMarker: function(hit) {
-    return new google.maps.Marker({
-      position: {lat: hit._geoloc.lat, lng: hit._geoloc.lng},
-      map: this._map,
-      title: hit.name
-    });
-  },
+  markers: [],
+
+    // Transform one hit to a Google Maps marker
+    _hitToMarker: function(hit) {
+      var marker = new google.maps.Marker({
+        position: {lat: hit._geoloc.lat, lng: hit._geoloc.lng},
+        map: this._map,
+        title: hit.SiteName
+
+      });
+
+      var infowindow = new google.maps.InfoWindow({
+        content:
+              '<span class="b">' + hit.SiteName + '</span><br>' +
+              '<span class="">' + hit.ShopLevel + '&nbsp;' + hit.Building + '</span><br>' +
+              '<span class="">' + hit.StreetNumber + '&nbsp;' + hit.StreetAddress + '<br>' + hit.State + '&nbsp;' + hit.Postcode +
+              '</span>'
+      });
+
+      // Add an info popup when clicking on the marker.
+      marker.addListener('click', function() {
+        infowindow.open(map, marker);
+      });
+
+      return marker;
+    },
   _handlePlaceChange: function(place) {
     // https://developers.google.com/maps/documentation/javascript/reference#Autocomplete
     var place = this._autocomplete.getPlace();
