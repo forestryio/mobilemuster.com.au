@@ -190,11 +190,13 @@ var apts = instantsearch({
   indexName: 'locations_dev'
 });
 
-var aptsHits = instantsearch.widgets.hits({
+var aptsHits = instantsearch.widgets.infiniteHits({
   container: document.querySelector('#hits'),
-  hitsPerPage: 15,
+  hitsPerPage: 5,
+  showMoreLabel: 'Show more drop-off points',
+  empty: '',
   templates: {
-    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong> — {{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}}, {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
+    item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong><br>{{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}}, {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
     empty: getTemplate('no-results')
   }
 });
@@ -204,11 +206,14 @@ var searchBox = instantsearch.widgets.searchBox({
   wrapInput: false
 });
 
+var stats = instantsearch.widgets.stats({
+    container: '#stats'
+});
+
 var customMapWidget = {
   _autocompleteContainer: document.querySelector('#places'),
   _mapContainer: document.querySelector('#map'),
   markers: [],
-
     // Transform one hit to a Google Maps marker
     _hitToMarker: function(hit) {
       var marker = new google.maps.Marker({
@@ -226,8 +231,13 @@ var customMapWidget = {
       });
 
       // Add an info popup when clicking on the marker.
-      marker.addListener('click', function() {
+      marker.addListener('mouseover', function() {
         infowindow.open(map, marker);
+      });
+
+      // assuming you also want to hide the infowindow when user mouses-out
+      marker.addListener('mouseout', function() {
+          infowindow.close();
       });
 
       return marker;
@@ -275,6 +285,7 @@ var customMapWidget = {
 };
 
 apts.addWidget(searchBox);
+apts.addWidget(stats);
 apts.addWidget(aptsHits);
 apts.addWidget(customMapWidget);
 apts.start();

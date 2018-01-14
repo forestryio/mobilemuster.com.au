@@ -109,7 +109,7 @@
             .mmgreen { color: #30a137;}
             #map {
               width: 100%;
-              height: 300px;
+              height: 450px;
             }
           </style>
 
@@ -206,7 +206,7 @@
     <h2 class="f1-m f1-l lh-title mv0">
       <span class="bggreen lh-copy white pa1 tracked-tight">
         
-          <span class="">&nbsp;</span>Recycle Drop-off Map Locator<span class="">&nbsp;</span>
+          <span class="">&nbsp;</span>Recycle Drop-off Points<span class="">&nbsp;</span>
           <span class=""><br></span>
         
         
@@ -239,28 +239,26 @@
 
      <main>
 
-        <div class="dn">
-              <label>Refine further
-                <input id="searchBox" />
-              </label>
-              </div>
-
-              <div id="map">
-
-              </div>
-
-              <div>
-                <label>
-                  <input id="places" />
-                </label>
-                </div>
-
-       <div id="">
+       <div id="" class="fl w-50 pr5">
          
-         <div id="stats"></div>
+         <label class="mt0">Search by suburb
+           <input id="places" />
+         </label>
+         <div id="stats" class="dn"></div>
          <div id="hits"></div>
          <div id="pagination"></div>
        </div>
+
+       <div class="fl w-50">
+         <div id="map"></div>
+       </div>
+
+       <div class="dn">
+           <label>Refine further
+             <input id="searchBox" />
+           </label>
+       </div>
+
      </main>
 
 
