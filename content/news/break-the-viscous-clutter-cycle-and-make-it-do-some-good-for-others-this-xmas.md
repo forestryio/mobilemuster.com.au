@@ -1,5 +1,5 @@
 ---
-title: Break the clutter cycle and make it do some good for others this Xmas
+title: Break the viscous clutter cycle and make it do some good for others this Xmas
 date: 2018-02-04T11:56:38.596Z
 intro: >-
   Look in a room, drawer or storage box in any home and you’ll find something
