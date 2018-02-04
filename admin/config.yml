@@ -1,18 +1,46 @@
 backend:
   name: github
-  repo: repo
-  branch: master
-  
+  repo: mobilemuster/mobilemuster.com.au
+  branch: gh-pages
+
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
-  
+
+  - name: "news"
+    label: "News Articles"
+    folder: "content/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "News Title", name: "title", widget: "string" }
+      - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "News Image", name: "image", widget: "image", required: false }
+      - { label: "Intro Text", name: "intro", widget: "string" }
+      - { label: "Body Text", name: "body", widget: "markdown" }
+
+  - name: "campaign"
+    label: "Campaign"
+    folder: "content/campaign"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Off/On", name: "status", widget: "boolean" }
+      - { label: "Campaign Image", name: "cimage", widget: "image", required: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "page"
-    label: "Page"
-    folder: "content"
+    label: "Pages"
+    folder: "content/pages"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+
