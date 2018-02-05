@@ -2,6 +2,7 @@
 title: Recycle a Mobile and Do Some Good this Summer
 subtitle: ''
 date: 2018-02-04T11:58:16.342Z
+image: /uploads/campaign-img-blue.jpg
 intro: >-
   We all have one; a little rough around the edges, not as cool as they used to
   be, or maybe you’ve upgraded to the latest model, they are simply old, broken,
