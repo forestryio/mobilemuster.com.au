@@ -20,18 +20,6 @@ collections:
       - { label: "Intro Text", name: "intro", widget: "string" }
       - { label: "Body Text", name: "body", widget: "markdown" }
 
-  - name: "campaign"
-    label: "Campaign"
-    folder: "content/campaign"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Off/On", name: "status", widget: "boolean" }
-      - { label: "Campaign Image", name: "cimage", widget: "image", required: false }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "page"
     label: "Pages"
     folder: "content/pages"
@@ -42,5 +30,17 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "campaigns"
+    label: "Campaign Hero"
+    folder: "content/campaigns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Display?", name: "status", widget: "boolean" }
+      - { label: "Campaign Image", name: "cimage", widget: "image", required: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
 
