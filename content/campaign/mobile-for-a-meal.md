@@ -1,6 +1,6 @@
 ---
 status: true
-cimage: /uploads/campaign-img-blue.jpg
+cimage: /uploads/campaign-img.jpg
 title: Mobile For A Meal
 subtitle: >-
   Recycle your mobile this summer and we’ll donate a meal to someone in need
