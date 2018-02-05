@@ -13,6 +13,8 @@ When we receive your mobiles and accessories, everything will be recycled in a s
 
 ## What is accepted?
 
+![undefined](/uploads/icons-01.gif)
+
 * Allmakes and models of mobile phones
 * Allmobile phone batteries
 * Allmobile chargers and accessories
