@@ -1,5 +1,6 @@
 ---
 title: Recycling
+subtitle: 'We recycle your mobile phones, batteries, and phone chargers for free.'
 ---
 There are a number of ways you can recycle your mobile phone with MobileMuster. Remember to remove any data that you would like to keep before you recycle.
 
