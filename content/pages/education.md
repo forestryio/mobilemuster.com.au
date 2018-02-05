@@ -1,5 +1,8 @@
 ---
 title: Education
+subtitle: >-
+  Educating Australians about recycling and the benefits it bring to the
+  community.
 ---
 # What Happens: The Recycling Process
 
