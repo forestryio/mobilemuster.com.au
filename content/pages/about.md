@@ -9,8 +9,6 @@ MobileMuster is managed by the [Australian Mobile Telecommunications Association
 * Handset manufacturers (Microsoft, Samsung, Motorola, HTC, Huawei, ZTE, Alcatel, Oppo, HMD Global, Google)
 * Network carriers (Telstra, Optus, Vodafone, Virgin Mobile)
 
-
-
 ## Product Stewardship
 
 MobileMuster is the only government accredited mobile phone recycling program in Australia. The program gained accreditation in 2014 under the [Product Stewardship Act 2011](http://www.comlaw.gov.au/Details/C2011A00076) which provides a framework to effectively address the environmental, health and safety impacts of a product or material across its full lifecycle, from manufacture to disposal.\
@@ -20,10 +18,7 @@ The mobile phone industry is constantly working to reduce the environmental and 
 * Improving how efficiently resources are used in the production of mobile phones
 * Ensuring that mobiles collected are recycled to the highest environmental standards
 * Minimising waste in the manufacture, production, use and disposal of mobiles and accessories
-* Reducing risk to human health through better management of product manufacturing and di
-* posal (e.g. ensuring safe work environments)
-
-
+* Reducing risk to human health through better management of product manufacturing and disposal (e.g. ensuring safe work environments)
 
 ## Industry Initiatives
 
@@ -44,8 +39,6 @@ The mobile phone industry is committed to reducing our environmental footprint. 
 * [Vodafone](https://www.vodafone.com.au/about/sustainability/)
 * [Optus](https://www.optus.com.au/about/sustainability)
 
-
-
 ## Latest Achievements
 
 The industry has invested over $42 million into the program which has recycled over 11 million handsets and batteries since it was established in 1998.\
@@ -57,8 +50,6 @@ In the last year, the program diverted 99% of the components collected from land
 MobileMuster provides an extensive collection network with over 3,500 public drop off points across the country along with a free post back option. The program also partners with workplaces and schools who promote mobile phone recycling to their staff and community, along with running internal collection drives.
 
 ## Annual Reports
-
-
 
 * [2017 ](http://localhost:3000/media/135343/mob_annualreport-2016-17final.pdf)and [Appendix](http://localhost:3000/media/135344/mobappendix-2017_final.pdf)
 * [2016](http://localhost:3000/media/134587/annual_report.pdf)

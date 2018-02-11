@@ -27,8 +27,6 @@ The components are processed separately to maximise resource recovery. Any data 
 | Accessories   | TES Singapore          | De-manufactured through shredding and automated separating methods.             | Plastics, Ferrous and Non Ferrous Metals                |
 | Packaging     | TES Australia          | Segregated and treated as commodities.                                          | Recycled Paper and Plastic                              |
 
-
-
 Step 5: Materials Extracted\
 The materials recovered in the recycling process can be used in the manufacture of new products. For example the recycled plastic from the mobile phone cases is used to make shipping pallets and the lithium extracted from mobile phone batteries can be reused to make new batteries.\
 \
@@ -48,8 +46,6 @@ Did you know?
 * Mobiles should never be thrown out. They're not biodegradable and contain some materials that can potentially harm the environment if not handled correctly at the end of a phone's useful life
 * For every tonne of mobile phone components recycled 9 tonnes of greenhouse gas emissions are avoided
 
-
-
 ## Educators
 
 MobileMuster has created a schools program to provide teachers and students with practical and engaging learning resources. Our learning resources are aligned to the Australian curriculum and specific modules have been developed for Early Learning, Primary and Secondary students.\
@@ -63,8 +59,6 @@ Click on the links below to access our learning modules
 * [The Recycling Process (English Stage 2 and Stage 3)](http://localhost:3000/resources/the-recycling-process.pdf)
 * [The Sustainable Smartphone (Geography Stage 5)](http://localhost:3000/resources/the-sustainable-smartphone.pdf)
 
-
-
 ## Schools Program
 
 Running a MobileMuster at your school is free and easy. Simply follow these steps:
@@ -75,9 +69,7 @@ Running a MobileMuster at your school is free and easy. Simply follow these step
 4. Let us do the recycling
 5. Celebrate your achievement
 
-\
-\
-**How to run a successful MobileMuster at your school**\
+**Run a Muster**\
 \
 If your class, environmental group or SRC are running e muster follow our steps below to make it a success.
 
@@ -89,8 +81,9 @@ If your class, environmental group or SRC are running e muster follow our steps 
 * Create a poster to advertise the MobileMuster event, this can be done individually, in groups or as a class.
 * Explore other ideas for promotion. For example writing articles for the school newsletter and social media, sending an article to the local newspaper, announcing the event at the school assembly, sending an email to class parents so that it can be distributed around the school.
 * At the end of the muster it’s important to think about how effective or successful your school’s muster was. Write a brief report for the school newsletter communicating the results of the MobileMuster.
-* * Were the goals reached?
+  * Were the goals reached?
   * Was the promotion successful?
   * Did the event create awareness about recycling?
   * How could you improve the muster for next year?
-* Try to conclude the muster experience with some sort of celebration, thanking the students for their efforts. Share any records broken, or any rewards reached. Thank the students for making a difference. Encourage them to put these recycling practices into their everyday life. - Share your student work and stories with MobileMuster.
+
+* Try to conclude the muster experience with some sort of celebration, thanking the students for their efforts. Share any records broken, or any rewards reached. Thank the students for making a difference. Encourage them to put these recycling practices into their everyday life. Share your student work and stories with MobileMuster.
