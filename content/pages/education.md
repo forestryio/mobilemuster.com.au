@@ -8,7 +8,7 @@ subtitle: >-
 
 MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.\
 \
-Step 1: Transporting\
+## Step 1: Transporting\
 When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.\
 \
 Step 2: Sorting\
@@ -85,5 +85,4 @@ If your class, environmental group or SRC are running e muster follow our steps 
   * Was the promotion successful?
   * Did the event create awareness about recycling?
   * How could you improve the muster for next year?
-
 * Try to conclude the muster experience with some sort of celebration, thanking the students for their efforts. Share any records broken, or any rewards reached. Thank the students for making a difference. Encourage them to put these recycling practices into their everyday life. Share your student work and stories with MobileMuster.
