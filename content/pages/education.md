@@ -6,13 +6,13 @@ subtitle: >-
 ---
 # What Happens: The Recycling Process
 
-MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.\
+MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
 
 ## Step 1: Transporting
-When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.\
+When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.
 
 ## Step 2: Sorting
-At the recycling facility the mobile phones are disassembled into their components. Nothing collected by the program is resold. Once disassembled the parts are sorted into the following: batteries, printed circuit boards, handsets, accessories, plastics, metals and packaging.\
+At the recycling facility the mobile phones are disassembled into their components. Nothing collected by the program is resold. Once disassembled the parts are sorted into the following: batteries, printed circuit boards, handsets, accessories, plastics, metals and packaging.
 
 ## Step 3: Processing
 The components are processed separately to maximise resource recovery. Any data left on the device is destroyed through this process.
