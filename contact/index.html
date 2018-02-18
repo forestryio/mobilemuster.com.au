@@ -234,8 +234,6 @@
 
   <form name="Contact Form" action="/thank-you/" netlify-honeypot="bot-field" class="w-100 w-80-ns pa1 black" netlify >
 
-  <div netlify-recaptcha></div>
-
   <label for="First Name"><span class="mmgreen">*</span>First Name</label>
     <input class="usa-input-success" id="First Name" name="First Name" type="text">
 
@@ -252,6 +250,8 @@
 
   <label for="Message">*Message</label>
   <textarea class="usa-input-success" id="Message" name="Message"></textarea>
+
+  <div netlify-recaptcha></div>
 
   <div class="button_wrapper">
     <button type="submit" value="Send Contact Form" class="bggreen usa-button">Submit</button>

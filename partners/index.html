@@ -234,8 +234,6 @@
 
   <form name="Partner Form" action="/thank-you/" netlify-honeypot="bot-field" class="w-100 w-80-ns pa1 black" netlify >
 
-  <div netlify-recaptcha></div>
-
   <label for="Organisation Name">Organisation Name<span class="mmgreen">*</span></label>
     <input class="usa-input-success" id="Organisation Name" name="Organisation Name" type="text">
 
@@ -313,6 +311,8 @@
   <input id="confirm-ownership" type="checkbox" name="agree-to-ownership" value="Yes" unchecked>
       <label for="confirm-ownership">* I agree to confer ownership of all mobile phones and mobile components collected for recycling to AMTA. I will not re-use or re-sell any mobile phones or mobile phones collected on behalf of MobileMuster.
 </label>
+
+  <div netlify-recaptcha></div>
 
   <div class="button_wrapper">
     <button type="submit" value="Send Partner Form" class="bggreen usa-button">Submit</button>
