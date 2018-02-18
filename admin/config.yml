@@ -3,6 +3,7 @@ backend:
   repo: mobilemuster/mobilemuster.com.au
   branch: gh-pages
 
+publish_mode: editorial_workflow
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
@@ -18,7 +19,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "News Image", name: "image", widget: "image", required: false }
       - { label: "Intro Text", name: "intro", widget: "string" }
-      - { label: "Body Text", name: "body", widget: "markdown" }
+      - { label: "Body Text", name: "body", widget: "markdown", required: false }
 
   - name: "page"
     label: "Pages"
@@ -30,7 +31,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "campaigns"
     label: "Campaign Hero"
