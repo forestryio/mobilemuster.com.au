@@ -4,7 +4,7 @@ subtitle: 'We recycle your mobile phones, batteries, & phone chargers for free'
 date: 2018-01-31T13:00:00.000Z
 fimage: /uploads/hero.jpg
 ---
-\*\**There are a number of ways you can recycle your mobile phone through MobileMuster. Remember to remove any data that you would like to keep before you recycle.
+\*\*\*\**There are a number of ways you can recycle your mobile phone through MobileMuster. Remember to remove any data that you would like to keep before you recycle.
 
 1. Drop them offat any participating mobile phone retailer.<br>![](http://localhost:3000/img/logos/bw/telstra.png)![](http://localhost:3000/img/logos/bw/optus.png)![](http://localhost:3000/img/logos/bw/vodafone.png)![](http://localhost:3000/img/logos/bw/virgin.png)![](http://localhost:3000/img/logos/bw/samsung.png)
 2. Post them in for free using [our mailing label](http://localhost:3000/media/135250/mobilemuster-mailing-label.pdf). Follow the instructions and attach the label to a padded envelope or box.
