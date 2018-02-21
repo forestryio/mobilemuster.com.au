@@ -1,6 +1,6 @@
 ---
 title: "Recycling Terms and Conditions"
-url: "/recyling/terms-and-conditions/"
+url: "/recycling/terms-and-conditions/"
 date: 2017-12-01T02:24:21+11:00
 draft: false
 blurbl1: ""
