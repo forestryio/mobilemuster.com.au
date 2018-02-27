@@ -4,7 +4,7 @@ subtitle: >-
   Educating Australians about recycling and the benefits it bring to the
   community.
 date: 2018-01-31T13:00:00.000Z
-fimage: /uploads/rjm9woc2ilurzmh3p3ew.jpg
+fimage: ''
 ---
 ### What Happens: The Recycling Process
 
