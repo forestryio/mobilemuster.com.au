@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /
+Disallow: {{ if ne (getenv "HUGO_ENV") "production" }}/{{ end }}

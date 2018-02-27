@@ -16,7 +16,7 @@ collections:
     fields:
       - { label: "News Title", name: "title", widget: "string" }
       - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "News Image", name: "image", widget: "image", required: false }
       - { label: "Intro Text", name: "intro", widget: "string" }
       - { label: "Body Text", name: "body", widget: "markdown", required: false }
@@ -29,7 +29,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Include Map Locator?", name: "includemaplocator", widget: "boolean", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
