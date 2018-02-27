@@ -10,8 +10,6 @@ fimage: ''
 
 MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
 
-![](/uploads/rjm9woc2ilurzmh3p3ew.jpg)
-
 #### Step 1: Transporting
 
 When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.
@@ -27,7 +25,7 @@ The components are processed separately to maximise resource recovery. Any data 
 | Components    | Transported to         | Further processing                                                              | Materials recovered                                     |
 | ------------- | ---------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Batteries     | Envirostream Melbourne | Batteries are shredded, granulated and sorted into materials.                   | Copper, Aluminum, Cobalt, Nickel, Lithium and Plastics. |
-| Circuit Board | TES Singapore          | A hydro-metallurgical metals recovery process separates the precious metals.    | Copper, Silver, Gold, Palladium, Metal Ingots           |
+| Circuit Board | TES Singapore          | A hydro-metallurgical process separates the precious metals.                    | Copper, Silver, Gold, Palladium, Metal Ingots           |
 | Metals        | Local recyclers        | Shredded and baled.                                                             | Copper, Stainless steel, Aluminum                       |
 | Plastics      | TES Singapore          | Shredded and granulated. Combined with spent epoxy powder to make new products. | Recycled Plastic                                        |
 | Glass         | TES Singapore / Veolia | Shredded and sorted.                                                            | Recycled Glass                                          |
@@ -48,7 +46,7 @@ TES is widely recognised as a global leader in electronic waste recycling. Their
 
 By recycling your mobile, you'll be avoiding future greenhouse gas emissions, saving energy, protecting the environment and conserving natural resources. You're also preventing potentially hazardous materials from entering the environment.\
 \
-Did you know?
+**Did you know?**
 
 * 99% of the materials used in mobiles and accessories can be recovered through recycling
 * These materials can be used to make everything from stainless steel to plastic pallets
@@ -72,7 +70,7 @@ Click on the links below to access our learning modules
 
 Running a MobileMuster at your school is free and easy. Simply follow these steps:
 
-1. Register your school
+1. [Register your school](https://www.mobilemuster.com.au/partners/#join)
 2. Plan & Promote your MobileMuster
 3. [Arrange a Pick Up](https://bookings.mobilemuster.com.au/)
 4. Let us do the recycling
