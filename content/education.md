@@ -1,20 +1,25 @@
 ---
-title: "Education"
-subtitle: "Educating Australians about recycling and the benefits it bring to the
-  community."
+title: Education
+subtitle: >-
+  Educating Australians about recycling and the benefits it bring to the
+  community.
 date: 2018-01-31T13:00:00.000Z
+fimage: /uploads/rjm9woc2ilurzmh3p3ew.jpg
 ---
 ### What Happens: The Recycling Process
 
 MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
 
 #### Step 1: Transporting
+
 When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.
 
 #### Step 2: Sorting
+
 At the recycling facility the mobile phones are disassembled into their components. Nothing collected by the program is resold. Once disassembled the parts are sorted into the following: batteries, printed circuit boards, handsets, accessories, plastics, metals and packaging.
 
 #### Step 3: Processing
+
 The components are processed separately to maximise resource recovery. Any data left on the device is destroyed through this process.
 
 | Components    | Transported to         | Further processing                                                              | Materials recovered                                     |
@@ -28,11 +33,13 @@ The components are processed separately to maximise resource recovery. Any data 
 | Packaging     | TES Australia          | Segregated and treated as commodities.                                          | Recycled Paper and Plastic                              |
 
 #### Step 5: Materials Extracted
+
 The materials recovered in the recycling process can be used in the manufacture of new products. For example the recycled plastic from the mobile phone cases is used to make shipping pallets and the lithium extracted from mobile phone batteries can be reused to make new batteries.\
 \
-The recycling process reduces the need to extract virgin material from the earth which saves energy, conserves scarce natural resources and protects our environment.\
+The recycling process reduces the need to extract virgin material from the earth which saves energy, conserves scarce natural resources and protects our environment.
 
 ### More information
+
 TES is widely recognised as a global leader in electronic waste recycling. Their e-waste recycling facilities utilise state of the art equipment and processing techniques aimed at delivering the lowest possible environmental impact. They invest in research, development and technology that maximises recovery of commodities and raw materials for reuse. TES maintains international best practice certifications; R2 (Responsible Recycling), ISO 9001, 14001, 27001, 28000, OHSAS 18001, and TAPA.
 
 ### Why recycling matters
