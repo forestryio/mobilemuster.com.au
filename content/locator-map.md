@@ -1,5 +1,6 @@
 ---
 title: Locator Map
-subtitle: 'Recycle Drop-off Points'
+subtitle: Recycle Drop-off Points
+date: 2018-02-24T03:16:13.976Z
 ---
-If you are a registered site and need to book in a free pick-up contact our team on **1800 249 113** or by [booking online](https://bookings.mobilemuster.com.au/). For any other matters about the program please use the form below or email us <mailto:mobilemuster@amta.org.au>.
+
