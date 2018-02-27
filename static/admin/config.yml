@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: mobilemuster/mobilemuster.com.au
-  branch: gh-pages
+  branch: production
 
 publish_mode: editorial_workflow
 media_folder: "static/uploads"
