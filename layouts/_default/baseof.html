@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+    <head>
+
+        {{ block "meta" . }}{{ partial "meta.html" . }}{{ end }}
+
+        {{ if .RSSLink }}
+            <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">
+        {{ end }}
+
+        {{ block "styles" . }}
+          <link rel="stylesheet" href='{{ "css/app.css" | absURL }}'>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+          <link rel="stylesheet" type="text/css" href="/css/algolia.css">
+          <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+          <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
+          <!-- Algolia Style -->
+          <style>
+            .dn { display: none; }
+            #left-column {
+              float: left;
+              width: 23%;
+            }
+            #right-column {
+              width: 74%;
+              margin-left: 26%;
+            }
+            .tar {text-align: right}
+            @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+            .aa-input-container {
+              display: inline-block;
+              position: relative; }
+            .aa-input-search {
+              width: 300px;
+              padding: 12px 28px 12px 12px;
+              border: 2px solid #ea008a;
+              border-radius: 4px;
+              -webkit-transition: .2s;
+              transition: .2s;
+              font-family: "Montserrat", sans-serif;
+              box-shadow: 4px 4px 0 rgba(241, 241, 241, 0.35);
+              font-size: 11px;
+              box-sizing: border-box;
+              color: #333;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none; }
+              .aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button, .aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
+                display: none; }
+              .aa-input-search:focus {
+                outline: 0;
+                border-color: #3a96cf;
+                box-shadow: 4px 4px 0 rgba(58, 150, 207, 0.1); }
+            .aa-input-icon {
+              height: 16px;
+              width: 16px;
+              position: absolute;
+              top: 50%;
+              right: 16px;
+              -webkit-transform: translateY(-50%);
+                      transform: translateY(-50%);
+              fill: #ea008a; }
+            .aa-hint {
+              color: #ea008a; }
+            .aa-dropdown-menu {
+              background-color: #fff;
+              border: 2px solid rgba(228, 228, 228, 0.6);
+              border-top-width: 1px;
+              font-family: "Montserrat", sans-serif;
+              width: 300px;
+              margin-top: 10px;
+              box-shadow: 4px 4px 0 rgba(241, 241, 241, 0.35);
+              font-size: 11px;
+              border-radius: 4px;
+              box-sizing: border-box; }
+            .aa-suggestion {
+              padding: 12px;
+              border-top: 1px solid rgba(228, 228, 228, 0.6);
+              cursor: pointer;
+              -webkit-transition: .2s;
+              transition: .2s;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                      justify-content: space-between;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center; }
+              .aa-suggestion:hover, .aa-suggestion.aa-cursor {
+                background-color: rgba(241, 241, 241, 0.35); }
+              .aa-suggestion > span:first-child {
+                color: #333; }
+              .aa-suggestion > span:last-child {
+                text-transform: uppercase;
+                color: #a9a9a9; }
+            .aa-suggestion > span:first-child em, .aa-suggestion > span:last-child em {
+              font-weight: 700;
+              font-style: normal;
+              background-color: rgba(58, 150, 207, 0.1);
+              padding: 2px 0 2px 2px; }
+            .mmgreen { color: #30a137;}
+            #map {
+              width: 100%;
+              height: 450px;
+            }
+          </style>
+
+        {{ end }}
+
+        <script src="/js/libs/modernizr-custom-1498546195570.js" type="text/javascript"></script>
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-KL6PLQ8');</script>
+          <!-- End Google Tag Manager -->
+
+
+        <!-- Facebook Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '433972223473870');
+          fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=433972223473870&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    </head>
+
+    <body class="{{ with getenv "HUGO_ENV" }}{{ . }} {{ end }} {{ .URL }} mt4 layout-demo">
+
+
+      <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6PLQ8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+
+        <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+        {{ block "header" . }}
+          {{ partial "menu" . }}
+        {{ end }}
+
+        <div class="usa-overlay"></div>
+
+
+        <main class="site-main" role="main">
+
+            {{ block "main" . }}{{ end }}
+
+        </main>
+
+
+        {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+
+        {{ block "scripts" . }}
+          <!--{{ partial "scripts.html" . }}-->
+
+          {{ if eq .URL "/locator-map/" }}
+
+            <!--script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2JRul_oIETYF86v5fSBFRMWeY-1mbCA&libraries=places"></script-->
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfhwZoShDa2FIs7tmIXv_5a2xuDUJp2N0&libraries=places"></script>
+
+            <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+            <script src="/js/search-simplified.js"></script>
+
+          {{ end }}
+
+
+            <!--script src="/js/algolia.js"></script-->
+
+          <script src='{{ "js/app.js" | absURL }}' defer></script>
+          <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
+        {{ end }}
+
+    </body>
+</html>

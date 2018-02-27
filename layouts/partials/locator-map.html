@@ -1,0 +1,91 @@
+<div id="" class="algolia content-wrap usa-grid">
+
+    <!-- INTERFACE -->
+     <header>
+
+       <div id="search-input" class="dn mb3"></div>
+       <div id="search-input-icon" class="dn"></div>
+
+
+     </header>
+
+     <main>
+
+       <div id="" class="fl w-50 pr5">
+         <!--div id="sort-by-wrapper"><span id="sort-by"></span></div-->
+         <label class="mt0">For best results type your <strong>suburb</strong> in the search box below.
+           <input id="places" placeholder="Search by Suburb">
+         </label>
+         <div id="stats" class="dn"></div>
+         <div id="hits"></div>
+         <div id="pagination"></div>
+       </div>
+
+       <div class="fl w-50">
+         <div id="map"></div>
+       </div>
+
+       <div class="dn">
+           <label>Refine further
+             <input id="searchBox" />
+           </label>
+       </div>
+
+     </main>
+
+
+     <!--{{ safeHTML "<img src=\"{{image}}\" alt=\"{{name}}\">" }}-->
+
+     {{ safeHTML "<script type=\"text/html\" id=\"hit-template\"><div class=\"hit\"><div class=\"description body-text hit-content\"><h1 class=\"mb0 b f2 heading hit-name\">{{{_highlightResult.SiteName.value}}}</h1><div class=\"header-description\"><p class=\"mv0\"><span class=\"hit-StreetNumber\">{{{_highlightResult.StreetNumber.value}}}</span> <span class=\"hit-StreetAddress\">{{{_highlightResult.StreetAddress.value}}}</span>, <span class=\"hit-Suburb\">{{{_highlightResult.Suburb.value}}}</span>, <span class=\"hit-State\">{{{_highlightResult.State.value}}}</span> <span class=\"hit-Postcode\">{{{_highlightResult.Postcode.value}}}</span> </span></p></div></div></div></script>" }}
+
+
+
+     {{ safeHTML "<script type=\"text/html\" id=\"no-results-template\"><div id=\"no-results-message\" \"class=\"tl\"\"><p>There are no <em>\"{{query}}\"</em> drop-off points. <a href=\"/partners/#become-a-partner\">Become a partner</a></p></div></script>" }}
+
+
+     <!--script src="/algolia.js"></script-->
+
+     <!-- /TEMPLATES -->
+
+     <!-- SCRIPTS -->
+     <!--script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+     <script src="/js/search-simplified.js"></script-->
+     <!-- /SCRIPTS -->
+</div>
+
+<!--section class="mt0 mb6 bg-light-gray pt5 pb5 usa-grid usa-section">
+
+  <div class="pt4 usa-width-one-half">
+    <h3>Find your nearest drop-off point...</h3>
+  </div>
+
+  <div class="pt3 usa-width-one-half">
+    <form class="usa-search usa-search-big">
+      <div role="search">
+        <label class="usa-sr-only" for="search-field-big">Search big</label>
+        <input id="search-field-big" type="search" name="search" placeholder="Type in your suburb or postcode...">
+        <button type="submit">
+          <span class="usa-search-submit-text">Find</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section-->
+
+
+
+<!--ul class="mt0 mb6 usa-accordion-bordered">
+
+  <li>
+    <button class="usa-accordion-button ph3"
+      aria-expanded="false"
+      aria-controls="b-a1">
+      <span class="f2">Click to find your nearest drop-off point</span>
+    </button>
+    <div id="b-a1" class="usa-accordion-content">
+
+
+
+    </div>
+  </li>
+</ul-->

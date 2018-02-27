@@ -1,0 +1,80 @@
+<aside class="sticky usa-width-one-fourth usa-layout-docs-sidenav">
+  <ul class="usa-sidenav-list">
+    <!--li>
+      <a>Page Menu</a>
+    </li-->
+    <li>
+      <a class="usa-current" href="">{{ .Params.title }}</a>
+      <ul class="usa-sidenav-sub_list">
+        {{ with .Params.section2t }}
+          <li>
+            <a href="#{{ . | urlize }}">{{ . }}</a>
+          </li>
+        {{ end }}
+
+        {{ with .Params.section21t }}
+        <ul class="usa-sidenav-sub_list">
+          <li><a href="#{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+
+          {{ with .Params.section22t }}
+          <li><a href="#{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+
+          {{ with .Params.section23t }}
+          <li><a href="#{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+
+        {{ with .Params.section21t }}
+        </ul>
+        {{ end }}
+
+        {{ with .Params.section3t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Params.section4t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Params.section5t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Params.section6t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Params.section7t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+        {{ with .Params.section8t }}
+          <li>
+            <a href="#{{ . | urlize }}">
+                {{ . }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </li>
+    <li>
+      <a href=""></a>
+    </li>
+  </ul>
+</aside>

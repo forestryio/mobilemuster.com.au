@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+  {{ block "title" . }}
+    {{ if .IsHome }}
+      {{ .Site.Title }}
+    {{ else if eq .URL "/news/" }}
+      {{ .Site.Title }} {{ .Title }}
+    {{ else }}
+      {{ .Site.Title }} {{ with .Title }}{{ . }} {{ end }}
+    {{ end }}
+  {{ end }}
+</title>
+
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ .Hugo.Generator }}

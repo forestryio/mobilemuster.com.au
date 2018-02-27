@@ -1,0 +1,18 @@
+
+
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+
+  <h2>{{ .Title }}</h2>
+
+  {{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
+
+  {{ if eq .URL "/partners/" }}
+    {{ partial "partner-form" . }}
+
+  {{ else if eq .URL "/partners/" }}
+    {{ partial "contact-form" . }}
+
+  {{ end }}
+
+
+</div>

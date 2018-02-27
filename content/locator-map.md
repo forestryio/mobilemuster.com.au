@@ -1,6 +1,5 @@
 ---
 title: Locator Map
-subtitle: Recycle Drop-off Points
-date: 2018-02-24T03:16:13.976Z
+subtitle: 'Recycle Drop-off Points'
+date: 2018-01-31T13:00:00.000Z
 ---
-

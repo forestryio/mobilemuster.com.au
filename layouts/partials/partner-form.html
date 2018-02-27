@@ -1,0 +1,102 @@
+<div id="join" class="mv5">
+    <h4 class="">Complete the form below to register your organisation.
+ <!--a target="_blank" href="https://bookings.mobilemuster.com.au/">booking online</a>.For any other matters about the program please use the form below or email us <a href="mailto:mobilemuster@amta.org.au">mobilemuster@amta.org.au</a-->
+    </h4>
+    <p class="i small">Please note: Fields defined with the ^ symbol will be used to generate a location map and fields with the * symbol are required.</p>
+</div>
+
+<div class="mt4">
+
+  <form name="Partner Form" action="/thank-you/" netlify-honeypot="bot-field" class="w-100 w-80-ns pa1 black" netlify >
+
+  <label for="Organisation Name">Organisation Name<span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Organisation Name" name="Organisation Name" type="text">
+
+  <label for="options">Organisation Type</label>
+      <select class="usa-input-success" name="Organisation Type" id="Organisation Type">
+        <option value>- Select -</option>
+        <option value="Retailer">Retailer</option>
+        <option value="Service Centre">Service Centre</option>
+        <option value="Repair Store">Repair Store</option>
+        <option value="Workplace">Workplace</option>
+        <option value="School">School</option>
+        <option value="Council">Council</option>
+      </select>
+
+  <label for="Contact First Name">Contact First Name <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Contact First Name" name="Contact First Name" type="text">
+
+  <label for="Contact Surname">Contact Surname <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Contact Surname" name="Contact Surname" type="text">
+
+  <p class="i small">Please provide a street address. We are unable to deliver to a PO Box address</p>
+
+  <label for="Shop Number/Level">Shop Number/Level <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Shop Number/Level" name="Shop Number/Level" type="text">
+
+  <label for="Building Name">Building Name <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="Building Name" name="Building Name" type="text">
+
+  <label for="Street Number ">Street Number <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="Street Number " name="Street Number" type="text">
+
+  <label for="Street Name">Street Name <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="Street Name" name="Street Name" type="text">
+
+  <label for="input-type-textarea">Suburb <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="input-type-text" name="Suburb" type="text">
+
+  <label for="Suburb">State <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="Suburb" name="State" type="text">
+
+  <label for="Postcode">Postcode <span class="mmgreen">^*</span></label>
+    <input class="usa-input-success" id="Postcode" name="Postcode" type="text">
+
+  <label for="Contact Number">Contact Number <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Contact Number" name="ontact Number" type="text">
+
+  <label for="Other Number">Other Number <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Other Number" name="Other Number" type="text">
+
+  <label for="Email Address">Email Address <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Email Address" name="Email Address" type="text">
+
+  <label for="Website Address">Website Address <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Website Address" name="Website Address" type="text">
+
+  <label for="Local council">Your local council <span class="mmgreen">*</span></label>
+    <input class="usa-input-success" id="Local council" name="Local council" type="text">
+
+    <label for="Public drop-off">Would you like your organisation to be listed as a public drop off?</label>
+        <select class="usa-input" name="Public drop-off" id="Public drop-off">
+          <option value>- Select -</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+
+  <label for="Heard about MobileMuster">How did you find out about MobileMuster?</label>
+    <input class="usa-input-success" id="Heard about MobileMuster" name="Heard about MobileMuster" type="text">
+
+  <!--label for="options">Subject</label>
+      <select class="usa-input-success" name="options" id="options">
+        <option value>- Select -</option>
+        <option value="value1">Option A</option>
+        <option value="value2">Option B</option>
+        <option value="value3">Option C</option>
+      </select-->
+
+  <p class="mt4 b i small">Please agree to the Terms & Conditions</p>
+  <input id="terms-and-condition" type="checkbox" name="agree-to-terms-and-conditions" value="Yes" unchecked>
+      <label for="terms-and-condition">*I have read and agree to the <a href="/media/6994/amta_733_mm_termsandconditions_may09.pdf">Terms &amp; Conditions</a> of participation (<span class="f3 i"><a href="/media/6994/amta_733_mm_termsandconditions_may09.pdf">Download Terms &amp; Conditions of participation [.pdf]</a>)</span></label>
+
+  <input id="confirm-ownership" type="checkbox" name="agree-to-ownership" value="Yes" unchecked>
+      <label for="confirm-ownership">* I agree to confer ownership of all mobile phones and mobile components collected for recycling to AMTA. I will not re-use or re-sell any mobile phones or mobile phones collected on behalf of MobileMuster.
+</label>
+
+  <div netlify-recaptcha></div>
+
+  <div class="button_wrapper">
+    <button type="submit" value="Send Partner Form" class="bggreen usa-button">Submit</button>
+  </div>
+
+  </form>
