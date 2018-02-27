@@ -5,9 +5,9 @@ includemaplocator: true
 date: 2018-01-31T13:00:00.000Z
 fimage: /uploads/hero.jpg
 ---
-There are a number of ways you can recycle your mobile phone through MobileMuster. Remember to remove any data that you would like to keep before you recycle.<br>
+There are a number of ways you can recycle your mobile phone through MobileMuster. Remember to remove any data that you would like to keep before you recycle.
 
-1. Drop them offat any participating mobile phone retailer.![](/img/logos/bw/telstra.png)![](/img/logos/bw/optus.png)![](/img/logos/bw/vodafone.png)![](/img/logos/bw/virgin.png)![](/img/logos/bw/samsung.png)
+1. Drop them off at any participating mobile phone retailer.<br>![](/img/logos/bw/telstra.png)![](/img/logos/bw/optus.png)![](/img/logos/bw/vodafone.png)![](/img/logos/bw/virgin.png)![](/img/logos/bw/samsung.png)
 2. Post them in for free using [our mailing label](/media/135250/mobilemuster-mailing-label.pdf). Follow the instructions and attach the label to a padded envelope or box.
 3. Use a free MobileMuster satchelavailable from [your nearest AusPost outlet](https://auspost.com.au/locate).
 
