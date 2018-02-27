@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: mobilemuster/mobilemuster.com.au
+  branch: gh-pages
+
+publish_mode: editorial_workflow
+media_folder: "static/uploads"
+public_folder: "/uploads"
+collections:
+
+  - name: "news"
+    label: "News"
+    label_singular: "News"
+    folder: "content/news"
+    create: true
+    slug: "news/{{slug}}"
+    fields:
+      - { label: "News Title", name: "title", widget: "string" }
+      - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "News Image", name: "image", widget: "image", required: false }
+      - { label: "Intro Text", name: "intro", widget: "string" }
+      - { label: "Body Text", name: "body", widget: "markdown", required: false }
+
+  - name: "page"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Include Map Locator?", name: "includemaplocator", widget: "boolean", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "Feature Image", name: "fimage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "campaigns"
+    label: "Campaigns"
+    label_singular: "Campaign"
+    folder: "content/campaigns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Display?", name: "status", widget: "boolean" }
+      - { label: "Campaign Image", name: "cimage", widget: "image", required: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+
