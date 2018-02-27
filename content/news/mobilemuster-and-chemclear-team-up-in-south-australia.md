@@ -1,8 +1,10 @@
 ---
-title: "MobileMuster and ChemClear team up in South Australia"
-shortlink: "ChemClear"
+title: MobileMuster & ChemClear team up in South Australia
 date: 2018-02-14T12:06:22.881Z
-intro: "South Australian property owners can safely dispose of their mobile phones at the same time as their unwanted farm chemicals, when Agsafe’s ChemClear collection hits the road in June."
+intro: >-
+  South Australian property owners can safely dispose of their mobile phones at
+  the same time as their unwanted farm chemicals, when Agsafe’s ChemClear
+  collection hits the road in June.
 ---
 The agricultural and veterinary chemical waste disposal program has teamed up with MobileMuster, the mobile industry product stewardship program, for the first collection of its kind, giving remote farmers and growers a chance to recycle mobiles and accessories. MobileMuster recycling manager, Spyro Kalos said the collaboration will make it easy for rural residents to responsibly dispose of both their mobile phones and chemicals in one convenient collection.
 
