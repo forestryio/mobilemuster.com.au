@@ -10,6 +10,7 @@ collections:
 
   - name: "news"
     label: "News Articles"
+    label_singular: "News"
     folder: "content/news"
     create: true
     slug: "news/{{slug}}"
@@ -23,6 +24,7 @@ collections:
 
   - name: "page"
     label: "Pages"
+    label_singular: "Page"
     folder: "content"
     create: true
     slug: "{{slug}}"
@@ -35,7 +37,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "campaigns"
-    label: "Campaign Hero"
+    label: "Campaigns"
+    label_singular: "Campaign"
     folder: "content/campaigns"
     create: true
     slug: "{{slug}}"
