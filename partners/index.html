@@ -147,6 +147,8 @@
         /></noscript>
         
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </head>
 
     <body class=" /partners/ mt4 layout-demo">
@@ -527,6 +529,17 @@ Australians continue to hold on to their old mobiles, many of which are no longe
             
 
           <script src='../js/app.js' defer></script>
+          <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
         
 
     </body>

@@ -147,6 +147,8 @@
         /></noscript>
         
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </head>
 
     <body class=" /education/ mt4 layout-demo">
@@ -517,6 +519,17 @@ If your class, environmental group or SRC are running e muster follow our steps 
             
 
           <script src='../js/app.js' defer></script>
+          <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
         
 
     </body>

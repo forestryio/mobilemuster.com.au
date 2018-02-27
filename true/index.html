@@ -147,6 +147,8 @@
         /></noscript>
         
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </head>
 
     <body class=" /true/ mt4 layout-demo">
@@ -374,6 +376,17 @@
             
 
           <script src='../js/app.js' defer></script>
+          <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
         
 
     </body>

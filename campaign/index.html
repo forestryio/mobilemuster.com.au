@@ -147,6 +147,8 @@
         /></noscript>
         
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </head>
 
     <body class=" /campaign/ mt4 layout-demo">
@@ -459,6 +461,17 @@ When we receive your mobiles and accessories, everything will be recycled in a s
             
 
           <script src='../js/app.js' defer></script>
+          <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
         
 
     </body>
