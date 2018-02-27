@@ -15,11 +15,11 @@ When we receive your mobiles and accessories, everything will be recycled in a s
 
 ### What is accepted?
 
-* Allmakes and models of mobile phones
-* Allmobile phone batteries
-* Allmobile chargers and accessories
-* Allmobile wireless internet devices
-* Allsmart watches
+* All makes and models of mobile phones
+* All mobile phone batteries
+* All mobile chargers and accessories
+* All mobile wireless internet devices
+* All smart watches
 
 ### Broken Phones
 
@@ -29,14 +29,14 @@ If your mobile phone is broken and you can't remove your data you can still safe
 
 Before you recycle, sell or give away your mobile phone, you should remove your personal information. If your mobile phone is still working we encourage you to take the following steps.
 
-1. Back up your data. Back up or transfer files and information you want to keep to a computer or online storage. Check to see if you can access your manufacturer’s software to complete the process.
-2. Log Out. You may be using a number of online accounts and social media. You will need to log out of these platforms through the administration and security settings.
-3. Perform a Reset. A reset will erase all the data from your device’s internal storage. Depending on what type of mobile phone you have, the instructions will vary. We recommend that you check the user guide or instructions on the manufactures website.
-4. Remove the SIM and memory card. Transfer any files that you have stored on the memory and SIM card. Once the data is removed they can be reused or recycled depending on your intentions.
+1. **Back up your data**. Back up or transfer files and information you want to keep to a computer or online storage. Check to see if you can access your manufacturer’s software to complete the process.
+2. **Log Out**. You may be using a number of online accounts and social media. You will need to log out of these platforms through the administration and security settings.
+3. **Perform a Reset**. A reset will erase all the data from your device’s internal storage. Depending on what type of mobile phone you have, the instructions will vary. We recommend that you check the user guide or instructions on the manufactures website.
+4. **Remove the SIM and memory card**. Transfer any files that you have stored on the memory and SIM card. Once the data is removed they can be reused or recycled depending on your intentions.
 
 ### Need help?
 
-Talk to your local mobile phone network provider to see what data management services they offer in store. Please note that some of these services may include a service fee. Useful links:
+Talk to your local mobile phone network provider to see what data management services they offer in store. Please note that some of these services may include a service fee. 
 
 ### Disclaimer
 
