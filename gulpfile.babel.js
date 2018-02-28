@@ -25,7 +25,7 @@ const onError = (err) => {
 gulp.task('server', ['build'], () => {
     browserSync.init({
         server: {
-            baseDir: 'mobilemuster.com.au'
+            baseDir: 'public'
         }
     })
     $.watch('src/sass/**/*.scss', () => gulp.start('sass'))

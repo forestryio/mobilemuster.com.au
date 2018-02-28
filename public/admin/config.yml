@@ -31,7 +31,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Include Map Locator?", name: "includemaplocator", widget: "boolean", required: false }
+      - { label: "Include Map Locator Button?", name: "includemaplocator", widget: "boolean", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
@@ -49,4 +49,13 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-
+  - name: "FAQs"
+    label: "FAQs"
+    label_singular: "FAQ"
+    folder: "content/faqs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Question", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "Answer", name: "body", widget: "markdown", required: false }
