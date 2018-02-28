@@ -3,7 +3,6 @@ backend:
   repo: mobilemuster/mobilemuster.com.au
   branch: production
 
-publish_mode: editorial_workflow
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
@@ -39,7 +38,7 @@ collections:
   - name: "campaign"
     label: "Campaigns"
     label_singular: "Campaign"
-    folder: "content/campaigns"
+    folder: "content/campaign"
     create: true
     slug: "{{slug}}"
     fields:
@@ -63,6 +62,15 @@ collections:
       - { label: "Partner Logo", name: "image", widget: "image", required: false }
       - { label: "Partner Website", name: "website", widget: "string", required: false }
       - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
+
+  - label: "People"
+    name: "people"
+    folder: "content/people"
+    create: true
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "profile", widget: "image", required: false }
+      - {label: "Bio", name: "bio", widget: "markdown", required: false }
 
   - name: "faqs"
     label: "FAQs"
