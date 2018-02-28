@@ -6,6 +6,7 @@ http://m.mobilemuster.com.au/recycling/  https://www.mobilemuster.com.au/recycli
 https://m.mobilemuster.com.au/*  https://www.mobilemuster.com.au  301
 https://m.mobilemuster.com.au/  https://www.mobilemuster.com.au  301
 https://www.mobilemuster.com.au/cms https://www.mobilemuster.com.au/admin/#/ 302
+https://www.mobilemuster.com.au/login https://www.mobilemuster.com.au/admin/#/ 302
 /about-us/*  /about/  301
 /contact-us/  /contact/  301
 /councils/  /partners/  301
