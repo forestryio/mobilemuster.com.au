@@ -107,6 +107,10 @@
   </url>
   
   <url>
+    <loc>/people/larissa-shashkof/</loc>
+  </url>
+  
+  <url>
     <loc>/campaign/mobile-for-a-meal/</loc>
   </url>
   
@@ -114,6 +118,15 @@
     <loc>/news/</loc>
     <lastmod>2018-02-14T12:06:22+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/people/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/people/spyro-kalos/</loc>
   </url>
   
   <url>
