@@ -1,8 +1,6 @@
-[![Atlas, Hugo Boilerplate](https://atlas.indigotree.co.uk/images/github-banner.png)](https://github.com/indigotree/atlas)
+[![mobilemuster.com.au](https://atlas.indigotree.co.uk/images/github-banner.png)](https://github.com/indigotree/atlas)
 
-![](http://forthebadge.com/images/badges/uses-badges.svg) ![](http://forthebadge.com/images/badges/built-by-developers.svg) ![](http://forthebadge.com/images/badges/gluten-free.svg)
-
-# Atlas
+# mobilemuster.com.au
 
 The [Hugo](https://gohugo.io/) boilerplate we use for our projects.
 

@@ -36,7 +36,7 @@ collections:
       - { label: "Intro Text", name: "intro", widget: "string" }
       - { label: "Body Text", name: "body", widget: "markdown", required: false }
 
-  - name: "campaigns"
+  - name: "campaign"
     label: "Campaigns"
     label_singular: "Campaign"
     folder: "content/campaigns"
@@ -72,4 +72,5 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Question", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Answer", name: "body", widget: "markdown", required: false }
