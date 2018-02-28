@@ -8,20 +8,6 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
 
-  - name: "news"
-    label: "News"
-    label_singular: "News"
-    folder: "content/news"
-    create: true
-    slug: "news/{{slug}}"
-    fields:
-      - { label: "News Title", name: "title", widget: "string" }
-      - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
-      - { label: "News Image", name: "image", widget: "image", required: false }
-      - { label: "Intro Text", name: "intro", widget: "string" }
-      - { label: "Body Text", name: "body", widget: "markdown", required: false }
-
   - name: "page"
     label: "Pages"
     label_singular: "Page"
@@ -35,6 +21,20 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "news"
+    label: "News"
+    label_singular: "News"
+    folder: "content/news"
+    create: true
+    slug: "news/{{slug}}"
+    fields:
+      - { label: "News Title", name: "title", widget: "string" }
+      - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "News Image", name: "image", widget: "image", required: false }
+      - { label: "Intro Text", name: "intro", widget: "string" }
+      - { label: "Body Text", name: "body", widget: "markdown", required: false }
 
   - name: "campaigns"
     label: "Campaigns"
