@@ -18,9 +18,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Include Map Locator Button?", name: "includemaplocator", widget: "boolean", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
 
   - name: "news"
     label: "News"
@@ -43,13 +43,28 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Display?", name: "status", widget: "boolean" }
-      - { label: "Campaign Image", name: "cimage", widget: "image", required: false }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Campaign Name", name: "name", widget: "string" }
+      - { label: "Campaign Slogan", name: "slogan", widget: "string", required: false }
+      - { label: "Campaign Partner", name: "partner", widget: "string", required: false }
+      - { label: "Campaign Image", name: "image", widget: "image", required: false }
+      - { label: "Campaign Start Date", name: "datestart", widget: "date", default: "", format: "Do MMM YY", required: false }
+      - { label: "Campaign End Date", name: "dateend", widget: "date", default: "", format: "Do MMM YY", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-  - name: "FAQs"
+  - name: "partners"
+    label: "Partners"
+    label_singular: "Partner"
+    folder: "content/partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Partner Name", name: "name", widget: "string" }
+      - { label: "Partner Slogan", name: "slogan", widget: "string", required: false }
+      - { label: "Partner Logo", name: "image", widget: "image", required: false }
+      - { label: "Partner Website", name: "website", widget: "string", required: false }
+      - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
+
+  - name: "faqs"
     label: "FAQs"
     label_singular: "FAQ"
     folder: "content/faqs"
@@ -57,5 +72,4 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Question", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Answer", name: "body", widget: "markdown", required: false }
