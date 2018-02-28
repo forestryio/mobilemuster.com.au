@@ -23,15 +23,13 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 
 To make things easier, we have created a range of resources for you to promote being a MobileMuster collection partner.
 
-* Use our recycling [poster](https://www.mobilemuster.com.au/resources/recycle-here.pdf) to promote your MobileMuster collection unit.
+* Use our recycling poster to promote your MobileMuster collection unit.
 * Share [our learning resources ](../education/)and educate your community about our recycling process and why recycling matters.
 * Use [our official logo](../resources/mobilemuster-official-logo.jpg), approved images and video to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
 * Share [our data management tips ](../recycling/)on how to back up your data and perform a reset. Before recycling it is important for customers to remove their personal information from their mobile if it is still working. 
 * Be sure to tag **\#mobilemuster** on social media so we can share your message.
 * Find us at[@mobilemuster on Facebook ](https://www.facebook.com/mobilemuster)and [@mobilemuster1 on Twitter](../partners/), [Instagram ](https://instagram.com/mobilemuster1)and [Youtube](https://www.youtube.com/channel/UCbDvHea3HSR87hMYdkJ50Fg).
 
-![](/uploads/img_0006 copy.jpg)
-
-## **Annual Results**
+**Annual Results**
 
 Annual results on how much your organisation recycled through the MobileMuster program are sent around August each year. These results cover the previous financial year and detail the environmental benefits of recycling. Feel free to share these results with your staff and community.
