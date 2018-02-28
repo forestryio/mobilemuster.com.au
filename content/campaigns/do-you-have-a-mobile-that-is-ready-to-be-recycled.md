@@ -1,7 +1,7 @@
 ---
 status: true
 cimage: /uploads/drawer.jpg
-title: Do you have a mobile that is ready to be recycled?
+title: Do you have a phone that is waiting to be recycled?
 subtitle: >-
   Australians are among the highest users of technology and produce an estimated
   25kg of electronic waste each every year.
