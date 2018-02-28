@@ -6,9 +6,11 @@ subtitle: >-
 date: 2018-01-31T13:00:00.000Z
 fimage: ''
 ---
-### What Happens: The Recycling Process
+### The Recycling Process
 
 MobileMuster partners with TES, a global leader in electronic waste recycling, to maximize recovery rates and ensure all the mobile phone components are processed in an environmentally responsible manner. Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
+
+![](/uploads/rjm9woc2ilurzmh3p3ew.jpg)
 
 #### Step 1: Transporting
 
