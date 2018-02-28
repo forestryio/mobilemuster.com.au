@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>/campaigns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/campaign/</loc>
     <priority>0</priority>
   </url>
@@ -100,6 +105,10 @@
   <url>
     <loc>/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/campaigns/do-you-have-a-mobile-that-is-ready-to-be-recycled/</loc>
   </url>
   
   <url>
