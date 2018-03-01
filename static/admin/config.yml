@@ -43,7 +43,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Campaign Name", name: "name", widget: "string" }
+      - { label: "Campaign Name", name: "title", widget: "string" }
       - { label: "Campaign Slogan", name: "slogan", widget: "string", required: false }
       - { label: "Campaign Partner", name: "partner", widget: "string", required: false }
       - { label: "Campaign Image", name: "image", widget: "image", required: false }
@@ -58,7 +58,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Partner Name", name: "name", widget: "string" }
+      - { label: "Partner Name", name: "title", widget: "string" }
       - { label: "Partner Slogan", name: "slogan", widget: "string", required: false }
       - { label: "Partner Logo", name: "image", widget: "image", required: false }
       - { label: "Partner Website", name: "website", widget: "string", required: false }
