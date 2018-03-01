@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/faqs/does-mobilemuster-recycle-ipads/</loc>
+    <lastmod>2018-02-28T03:00:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faqs/does-mobilemuster-recycle-computer-cables-and-accessories/</loc>
+    <lastmod>2018-02-28T02:59:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faqs/does-mobilemuster-recycle-activity-trackers-like-fitbit/</loc>
+    <lastmod>2018-02-28T02:58:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faqs/does-mobilemuster-recycle-cordless-phones-not-mobiles/</loc>
+    <lastmod>2018-02-28T02:56:26+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/news/mobilemuster-and-chemclear-team-up-in-south-australia/</loc>
     <lastmod>2018-02-14T12:06:22+00:00</lastmod>
   </url>
@@ -93,12 +113,16 @@
   </url>
   
   <url>
-    <loc>/campaign/</loc>
-    <priority>0</priority>
+    <loc>/campaigns/do-you-have-a-mobile-that-is-ready-to-be-recycled/</loc>
   </url>
   
   <url>
     <loc>/campaigns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/campaign/</loc>
     <priority>0</priority>
   </url>
   
@@ -112,7 +136,13 @@
   </url>
   
   <url>
-    <loc>/campaigns/do-you-have-a-mobile-that-is-ready-to-be-recycled/</loc>
+    <loc>/faqs/</loc>
+    <lastmod>2018-02-28T03:00:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/partners/google/</loc>
   </url>
   
   <url>
@@ -130,6 +160,11 @@
   <url>
     <loc>/news/</loc>
     <lastmod>2018-02-14T12:06:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/partners/</loc>
     <priority>0</priority>
   </url>
   
