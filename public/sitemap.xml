@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>/campaign/</loc>
+    <loc>/campaigns/</loc>
     <priority>0</priority>
   </url>
   
@@ -103,7 +103,7 @@
   </url>
   
   <url>
-    <loc>/campaign/do-you-have-a-mobile-that-is-ready-to-be-recycled/</loc>
+    <loc>/campaigns/do-you-have-a-mobile-that-is-ready-to-be-recycled/</loc>
   </url>
   
   <url>
@@ -111,7 +111,7 @@
   </url>
   
   <url>
-    <loc>/campaign/mobile-for-a-meal/</loc>
+    <loc>/campaigns/mobile-for-a-meal/</loc>
   </url>
   
   <url>
