@@ -1,10 +1,9 @@
 ---
-status: true
-cimage: /uploads/drawer.jpg
-title: Do you have a phone that is waiting to be recycled?
-subtitle: >-
-  Australians are among the highest users of technology and produce an estimated
-  25kg of electronic waste each every year.
+name: Recycling Made Easy
+slogan: Do you have a phone that is waiting to be recycled?
+partner: Planet Ark
+datestart: 28th Feb 18
+dateend: 1st Mar 18
 ---
 It is important to make sure that your electronic waste is recycled responsibly and never put into the rubbish bin.
 
