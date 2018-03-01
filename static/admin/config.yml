@@ -52,18 +52,19 @@ collections:
       - { label: "Campaign End Date", name: "dateend", widget: "date", default: "", format: "Do MMM YY", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-  - name: "partner"
-    label: "Partners"
-    label_singular: "Partner"
+
+  - name: "members"
+    label: "Members"
+    label_singular: "Member"
     folder: "content/partners"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Partner Name", name: "title", widget: "string" }
-      - { label: "Partner Slogan", name: "slogan", widget: "string", required: false }
-      - { label: "Partner Logo", name: "image", widget: "image", required: false }
-      - { label: "Partner Website", name: "website", widget: "string", required: false }
-      - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
+      - { label: "Member Name", name: "title", widget: "string" }
+      - { label: "Member Slogan", name: "slogan", widget: "string", required: false }
+      - { label: "Member Logo", name: "image", widget: "image", required: false }
+      - { label: "Member Website", name: "website", widget: "string", required: false }
+      - { label: "Member Blurb", name: "body", widget: "markdown", required: false }
 
   - name: "people"
     label: "People"
