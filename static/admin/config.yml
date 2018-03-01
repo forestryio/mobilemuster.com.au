@@ -65,19 +65,6 @@ collections:
       - { label: "Partner Website", name: "website", widget: "string", required: false }
       - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
 
-  - name: "partners"
-    label: "Partners"
-    label_singular: "Partner"
-    folder: "content/partners"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Partner Name", name: "title", widget: "string" }
-      - { label: "Partner Slogan", name: "slogan", widget: "string", required: false }
-      - { label: "Partner Logo", name: "image", widget: "image", required: false }
-      - { label: "Partner Website", name: "website", widget: "string", required: false }
-      - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
-
   - name: "people"
     label: "People"
     folder: "content/people"

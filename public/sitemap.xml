@@ -142,10 +142,6 @@
   </url>
   
   <url>
-    <loc>/partners/google/</loc>
-  </url>
-  
-  <url>
     <loc>/people/larissa-shashkof/</loc>
   </url>
   
@@ -160,11 +156,6 @@
   <url>
     <loc>/news/</loc>
     <lastmod>2018-02-14T12:06:22+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/partners/</loc>
     <priority>0</priority>
   </url>
   
