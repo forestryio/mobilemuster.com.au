@@ -7,6 +7,10 @@ https://m.mobilemuster.com.au/*  https://www.mobilemuster.com.au  301!
 https://m.mobilemuster.com.au/  https://www.mobilemuster.com.au  301!
 https://www.mobilemuster.com.au/cms https://www.mobilemuster.com.au/admin/#/ 302
 https://www.mobilemuster.com.au/login https://www.mobilemuster.com.au/admin/#/ 302
+https://www.mobilemuster.com.au/flow https://github.com/mobilemuster/mobilemuster.com.au/issues 302
+https://www.mobilemuster.com.au/flowopen https://github.com/mobilemuster/mobilemuster.com.au/issues?q=is%3Aopen+is%3Aissue 302
+https://www.mobilemuster.com.au/flowclosed https://github.com/mobilemuster/mobilemuster.com.au/issues?q=is%3Aissue+is%3Aclosed 302
+https://www.mobilemuster.com.au/flownew https://github.com/mobilemuster/mobilemuster.com.au/issues/new 302
 /about-us/*  /about/  301
 /contact-us/  /contact/  301
 /councils/  /partners/  301
