@@ -39,7 +39,7 @@ collections:
   - name: "campaign"
     label: "Campaigns"
     label_singular: "Campaign"
-    folder: "content/campaign"
+    folder: "content/campaigns"
     create: true
     slug: "{{slug}}"
     fields:
@@ -64,8 +64,8 @@ collections:
       - { label: "Partner Website", name: "website", widget: "string", required: false }
       - { label: "Partner Blurb", name: "body", widget: "markdown", required: false }
 
-  - label: "People"
-    name: "people"
+  - name: "people"
+    label: "People"
     folder: "content/people"
     create: true
     fields:
