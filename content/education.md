@@ -1,8 +1,6 @@
 ---
 title: Education
-subtitle: >-
-  Educating Australians about recycling and the benefits it bring to the
-  community.
+subtitle: Educating Australians about recycling and the benefits it brings.
 fimage: ''
 date: 2018-01-31T13:00:00.000Z
 ---
