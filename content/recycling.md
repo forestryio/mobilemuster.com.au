@@ -50,29 +50,16 @@ MobileMuster partners with TES, a global leader in electronic waste recycling, t
 
 ![null](/uploads/rjm9woc2ilurzmh3p3ew.jpg)
 
-**Step 1: Transporting
 **
+Step 1: Tranporting. **When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.
 
-When you drop off your old mobile phones for recycling they are collected and transported to TES’s recycling facilities in Melbourne, Sydney or Brisbane.
+**Step 2: Sorting. **At the recycling facility the mobile phones are disassembled into their components. Nothing collected by the program is resold. Once disassembled the parts are sorted into the following: batteries, printed circuit boards, handsets, accessories, plastics, metals and packaging.
 
-**
-Step 2: Sorting
-**
+**Step 3: Processing. **The components are processed separately to maximise resource recovery. Any data left on the device is destroyed through this process.
 
-At the recycling facility the mobile phones are disassembled into their components. Nothing collected by the program is resold. Once disassembled the parts are sorted into the following: batteries, printed circuit boards, handsets, accessories, plastics, metals and packaging.
+**Step 4: Materials Extracted. **The materials recovered in the recycling process can be used in the manufacture of new products. For example the recycled plastic from the mobile phone cases is used to make shipping pallets and the lithium extracted from mobile phone batteries can be reused to make new batteries.
 
-**Step 3: Processing
-**
-
-The components are processed separately to maximise resource recovery. Any data left on the device is destroyed through this process.
-
-**Step 4: Materials Extracted
-**
-
-The materials recovered in the recycling process can be used in the manufacture of new products. For example the recycled plastic from the mobile phone cases is used to make shipping pallets and the lithium extracted from mobile phone batteries can be reused to make new batteries.
-
-**
-The environmental benefits of recycling**
+**The environmental benefits of recycling**
 
 The recycling process reduces the need to extract virgin material from the earth which saves energy, conserves scarce natural resources and protects our environment.
 
