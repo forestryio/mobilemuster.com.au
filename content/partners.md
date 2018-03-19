@@ -15,7 +15,7 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 * Annual reporting on how much your organisation recycled.
 * Monthly news on the MobileMuster program.
 
-## [Join MobileMuster](../partners/#join)
+# [Register Here](https://www.mobilemuster.com.au/partners/#join)
 
 ![null](/uploads/iygdp4xttwsbbxjvjyrz.jpg)
 
