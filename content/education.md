@@ -21,6 +21,7 @@ Click on the links below to access our learning modules:
 * [The Sustainable Smartphone (Geography Stage 5)](resources/the-sustainable-smartphone.pdf)
 
 ### Schools Program
+
   Running a MobileMuster at your school is free and easy. Simply follow these steps:
 
 1. [Register your school](https://www.mobilemuster.com.au/partners/#join)
@@ -28,7 +29,6 @@ Click on the links below to access our learning modules:
 3. [Arrange a Pick Up](https://bookings.mobilemuster.com.au/)
 4. Let us do the recycling
 5. Celebrate your achievement
-
 
 ### Run a Muster
 
