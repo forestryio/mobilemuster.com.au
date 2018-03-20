@@ -5,7 +5,7 @@ fimage: ''
 date: 2018-01-31T13:00:00.000Z
 ---
 By recycling your mobile, you'll be avoiding future greenhouse gas emissions, saving energy, protecting the environment and conserving natural resources. You're also preventing potentially hazardous materials from entering the environment.
-!\[](uploads/environmental benefits.jpg)
+!\[](/uploads/environmental&20%benefits.jpg)
 
 ### Educators
 
@@ -16,7 +16,7 @@ It is hoped that the knowledge gained through the MobileMuster learning modules 
 Click on the links below to access our learning modules:
 
 * [Recycling in the classroom (Early Leaning, Stage 1 and Stage 2)](/resources/early-learning-module.pdf)
-* [How Phones are Made (Science Stage 3)](resources/how-phones-are-made.pdf)
+* [How Phones are Made (Science Stage 3)](/resources/how-phones-are-made.pdf)
 * [The Recycling Process (English Stage 2 and Stage 3)](/resources/the-recycling-process.pdf)
 * [The Sustainable Smartphone (Geography Stage 5)](/resources/the-sustainable-smartphone.pdf)
 
