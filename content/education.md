@@ -5,7 +5,7 @@ fimage: ''
 date: 2018-01-31T13:00:00.000Z
 ---
 By recycling your mobile, you'll be avoiding future greenhouse gas emissions, saving energy, protecting the environment and conserving natural resources. You're also preventing potentially hazardous materials from entering the environment.
-!\[](/uploads/environmental benefits.jpg)
+!\[](/uploads/environmental&20%benefits.jpg)
 
 ### Educators
 
