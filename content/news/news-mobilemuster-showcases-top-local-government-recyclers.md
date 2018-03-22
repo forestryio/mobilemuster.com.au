@@ -27,7 +27,7 @@ The awards are based on the council who has collected the most mobile phone comp
 
 \*The current top local council collectors in each state and territory (in alphabetical order) based on collections received between 1 May 2017 and 28 February 2018. 
 
-**New South Wales	**
+**New South Wales**
 
 * Hornsby Shire Council
 * Lake Macquarie City Council
@@ -35,8 +35,7 @@ The awards are based on the council who has collected the most mobile phone comp
 * Randwick City Council
 * Wingecarribee Shire Council
 
-**Northern Territory 
-**
+**Northern Territory**
 
 * Alice Springs Town Council
 * City of Palmerston
