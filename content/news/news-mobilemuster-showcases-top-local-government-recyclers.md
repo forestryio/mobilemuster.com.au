@@ -15,6 +15,8 @@ MobileMuster has been partnering with local councils for over 12 years to make r
 
 “Councils play an important role in offering convenient public drop-off points and educating the community on how to recycle responsibly.  Over the last 12 years local councils have collected almost 34 tonnes of mobile phone components,” says Spyro Kalos, Recycling Manager, MobileMuster.
 
+![](/uploads/recycling centre small.jpg)
+
 Positive partnerships with local councils are a key factor in the success of the government accredited mobile phone recycling program. Each year MobileMuster attracts more local government partners who continue to increase collections for the program.
 
 If your council doesn’t currently participate in the MobileMuster program and is interested in getting involved you can [register online](https://www.mobilemuster.com.au/partners/#join) or call 02 8920 3555. Once registered MobileMuster can provide you with free collection units tailored for admin centres, libraries and waste transfer sites, plus resources to promote the program. 
