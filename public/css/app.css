@@ -11170,3 +11170,6 @@ input, textarea, select {
 
 .usa-footer-logo-img {
   max-width: none; }
+
+select {
+  padding: 0rem .7em; }

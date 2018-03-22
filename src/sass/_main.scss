@@ -153,3 +153,8 @@ input, textarea, select {
   max-width: none;
 }
 
+// Form selector fix?
+
+select {
+  padding: 0rem .7em;
+}
