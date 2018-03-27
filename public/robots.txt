@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /
+Disallow: /cms
+Disallow: /admin
+Disallow: /login
+Disallow: /flow
+Disallow: /openflow
+Disallow: /closedflow
+Disallow: /newflow
