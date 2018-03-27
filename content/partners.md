@@ -23,9 +23,11 @@ To make things easier, we have created a range of resources for you to promote b
 
 ![](/uploads/posters website.jpg)
 
-* Share [our learning resources ](../education/)and educate your community about our recycling process and why recycling matters.
-* Use [our official logo](../resources/mobilemuster-official-logo.jpg), approved images and video to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
-* Share data management images and [tips ](../recycling/)on how to back up your data and perform a reset. Before recycling it is important for customers to remove their personal information from their mobile if it is still working. 
+Share [our learning resources ](../education/)and educate your community about our recycling process and why recycling matters.
+
+Use [our official logo](../resources/mobilemuster-official-logo.jpg), approved images and video to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
+
+Share data management images and [tips ](../recycling/)on how to back up your data and perform a reset. Before recycling it is important for customers to remove their personal information from their mobile if it is still working. 
 
 ![null](/uploads/mob_collectionpartner_instagram_4.v1.jpg)
 
