@@ -17,8 +17,6 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 
 # [Register Here](https://www.mobilemuster.com.au/partners/#join)
 
-![null](/uploads/iygdp4xttwsbbxjvjyrz.jpg)
-
 ## Resources
 
 To make things easier, we have created a range of resources for you to promote being a MobileMuster collection partner.
@@ -26,7 +24,10 @@ To make things easier, we have created a range of resources for you to promote b
 * Use our recycling poster to promote your MobileMuster collection unit.
 * Share [our learning resources ](../education/)and educate your community about our recycling process and why recycling matters.
 * Use [our official logo](../resources/mobilemuster-official-logo.jpg), approved images and video to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
-* Share [our data management tips ](../recycling/)on how to back up your data and perform a reset. Before recycling it is important for customers to remove their personal information from their mobile if it is still working. 
+* Share data management images and [tips ](../recycling/)on how to back up your data and perform a reset. Before recycling it is important for customers to remove their personal information from their mobile if it is still working. 
+
+![](/uploads/mob_collectionpartner_instagram_4.v1.jpg)
+
 * Be sure to tag **\#mobilemuster** on social media so we can share your message.
 * Find us at[@mobilemuster on Facebook ](https://www.facebook.com/mobilemuster)and [@mobilemuster1 on Twitter](../partners/), [Instagram ](https://instagram.com/mobilemuster1)and [Youtube](https://www.youtube.com/channel/UCbDvHea3HSR87hMYdkJ50Fg).
 
