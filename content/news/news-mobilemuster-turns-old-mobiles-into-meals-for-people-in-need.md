@@ -13,4 +13,4 @@ When we receive your mobiles and accessories, everything is dismantled and the c
 
 Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
 
-![](/uploads/mob_twitter_post01.fa.amend01.jpg)
+![null](/uploads/mob_twitter_post01.fa.amend01.jpg)
