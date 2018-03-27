@@ -9,8 +9,8 @@ We achieved our target of recycling 70,000 mobiles which meant we were able to d
 
 **What happens with the phones?**
 
-When we receive your mobiles and accessories, everything is dismantled and the components processed to maximize recovery rates and ensure everything is recycled in an environmentally responsible manner. 
+When we receive your mobiles and accessories, everything is dismantled and the components processed to maximize recovery rates. We make sure that everything is recycled in an environmentally responsible manner. 
 
-Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment, minimises the resources that are thrown away and promotes the development of a circular economy.
+Through our recycling over 99% of the materials in a mobile phone are recovered. This process reduces the impact of mobile phones on the environment by avoiding future greenhouse gas emissions, saving energy and conserving natural resources. 
 
 ![null](/uploads/mob_twitter_post01.fa.amend01.jpg)
