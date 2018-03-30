@@ -11,13 +11,15 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 
 * Free collection units that can be used in your retail store, council, school or workplace.
 * Education and marketing resources to support your collection drive.
-* A free pick-up and processing service. 
+* A free pick-up and processing service.
 * Annual reporting on how much your organisation recycled.
 * Monthly news on the MobileMuster program.
 
-# [Register Here](https://www.mobilemuster.com.au/partners/#join)
+{{% button text="Register Here" link="/partners/#join" %}}
 
 ## Resources
+
+
 
 To make things easier, we have created a range of resources for you to promote being a MobileMuster collection partner. Use our recycling posters to promote your MobileMuster collection unit. If you are creating your own resources use [our official logo](../resources/mobilemuster-official-logo.jpg) to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
 
@@ -25,7 +27,7 @@ To make things easier, we have created a range of resources for you to promote b
 
 # Data Management Tips
 
-Share our[ data management tips](https://www.mobilemuster.com.au/recycling/) and social media images on how to back up your data and perform a reset before recycling. Encourage customers to remove their personal information from their mobile if it is still working. 
+Share our[ data management tips](https://www.mobilemuster.com.au/recycling/) and social media images on how to back up your data and perform a reset before recycling. Encourage customers to remove their personal information from their mobile if it is still working.
 
 ![null](/uploads/mob_collectionpartner_instagram_4.v1.jpg)
 
