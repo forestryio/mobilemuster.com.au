@@ -17,6 +17,8 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 
 {{% button text="Register Here" link="/partners/#join" %}}
 
+{{< button >}}
+
 ## Resources
 
 
