@@ -106,6 +106,9 @@ watch =                       true
 
 disableAliases = true
 
+[params]
+disallow_search_engines = false # set robots.txt to disallow everything
+
 # add redirects/headers
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
