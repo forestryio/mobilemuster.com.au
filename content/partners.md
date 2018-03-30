@@ -16,7 +16,7 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 * Monthly news on the MobileMuster program.
 
 # [Register Here](https://www.mobilemuster.com.au/partners/#join)
-{{ <button> }}
+{{< button >}}
 
 ## Resources
 
