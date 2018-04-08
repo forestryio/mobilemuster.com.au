@@ -17,6 +17,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "In Section", name: "section", widget: "select", options: ["Public", "Teachers", "Students"]}
       - { label: "Include Map Locator Button?", name: "includemaplocator", widget: "boolean", required: false }
       - { label: "Feature Image", name: "fimage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
