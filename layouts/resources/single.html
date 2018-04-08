@@ -1,0 +1,77 @@
+
+
+{{ define "main" }}
+
+  {{ with .Params.subtitle }}
+
+    <section class="mv5 pv0 usa-grid usa-section">
+      <div class="usa-width-two-thirds">
+        <section class="mw6 mw8-ns dib bggreen white pa3">
+          <h2 class="mv0">
+            {{ . }}
+          </h2>
+        </section>
+      </div>
+    </section>
+
+  {{ else }}
+
+    <section class="mv5 pv0 usa-grid usa-section">
+      <div class="usa-width-two-thirds">
+        <section class="mw6 mw8-ns dib bggreen white pa3">
+          <h2 class="mv0">
+            {{ .Title }}
+          </h2>
+        </section>
+      </div>
+    </section>
+
+  {{ end }}
+
+
+  {{ if .Params.includemaplocator }}
+    {{ partial "intro-search" . }}
+  {{ end }}
+
+
+  <section class="mv5 pv0 usa-grid usa-section">
+    <div class="usa-width-three-fourths usa-layout-docs-main_content">
+        <main class="" id="main-content">
+
+            {{ if eq .Section "news" }}
+              <h3 class="mt2">News Release: {{ dateFormat "02 January 2006, 15:04 MST" .Date.Local }}</h3>
+            {{ end }}
+
+              {{ if eq .URL "/news/" }}
+                {{ partial "news" . }}
+              {{ end }}
+
+              {{ if or (eq .URL "/mobile-for-a-meal/") (eq .URL "/campaign/mobile-for-a-meal/") }}
+                {{ partial "hero-2" . }}
+                {{ partial "intro-search" . }}
+              {{ end }}
+
+              <div id="more">
+                {{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
+              </div>
+
+
+              {{ if eq .URL "/partners/" }}
+                {{ partial "partner-form" . }}
+              {{ end }}
+
+              {{ if eq .URL "/contact/" }}
+                {{ partial "contact-form" . }}
+              {{ end }}
+
+
+      </main>
+    </div>
+  </section>
+
+  {{ if eq .URL "/locator-map/" }}
+    {{ partial "locator-map" . }}
+  {{ end }}
+
+{{ end }}
+

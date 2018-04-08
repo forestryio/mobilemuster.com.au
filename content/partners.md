@@ -1,7 +1,6 @@
 ---
 title: Partners
-subtitle: >-
-  We partner with Australian retailers, repair stores, councils, schools and
+subtitle: We partner with Australian retailers, repair stores, councils, schools and
   workplaces.
 date: 2018-01-31T13:00:00.000Z
 ---
@@ -15,8 +14,8 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 * Annual reporting on how much your organisation recycled.
 * Monthly news on the MobileMuster program.
 
-## Resources
 
+## Resources
 
 
 To make things easier, we have created a range of resources for you to promote being a MobileMuster collection partner. Use our recycling posters to promote your MobileMuster collection unit. If you are creating your own resources use [our official logo](../resources/mobilemuster-official-logo.jpg) to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
