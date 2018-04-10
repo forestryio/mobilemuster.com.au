@@ -195,7 +195,7 @@ var apts = instantsearch({
 var aptsHits = instantsearch.widgets.infiniteHits({
   container: document.querySelector('#hits'),
   hitsPerPage: 5,
-  showMoreLabel: 'Show more drop-off points',
+  showMoreLabel: 'Show more drop-offs points',
   empty: '',
   templates: {
     item: '<span class="db mv3"><strong><span class="green">{{{_highlightResult.SiteName.value}}}</span></strong><br>{{{_highlightResult.ShopLevel.value}}} {{{_highlightResult.Building.value}}} {{{_highlightResult.StreetNumber.value}}} {{{_highlightResult.StreetAddress.value}}}, {{{_highlightResult.Suburb.value}}}, {{{_highlightResult.State.value}}}, {{{_highlightResult.Postcode.value}}}</span><hr class="bb b--black-10">',
