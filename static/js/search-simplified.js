@@ -2,8 +2,8 @@
 
 app({
   //appId: 'AQM12ZJFZT',
-  appId: 'XEB6CZPGNW',
   //apiKey: 'c33a6b6f6c0912ae9cd61765e90e2dd2',
+  appId: 'XEB6CZPGNW',
   apiKey: '2cf4da41c1f1fc39b38eec650ca53dd0',
   indexName: 'locations',
 });
@@ -187,9 +187,9 @@ function getHeader(title) {
 
 
 var apts = instantsearch({
-  appId: 'AQM12ZJFZT',
-  apiKey: 'c33a6b6f6c0912ae9cd61765e90e2dd2',
-  indexName: 'locations_dev'
+  appId: 'XEB6CZPGNW',
+  apiKey: '2cf4da41c1f1fc39b38eec650ca53dd0',
+  indexName: 'locations',
 });
 
 var aptsHits = instantsearch.widgets.infiniteHits({
