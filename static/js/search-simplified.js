@@ -2,7 +2,8 @@
 
 app({
   appId: 'AQM12ZJFZT',
-  apiKey: 'c33a6b6f6c0912ae9cd61765e90e2dd2',
+  //apiKey: 'c33a6b6f6c0912ae9cd61765e90e2dd2',
+  apiKey: '2cf4da41c1f1fc39b38eec650ca53dd0',
   indexName: 'locations',
 });
 
