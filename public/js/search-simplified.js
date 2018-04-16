@@ -194,7 +194,7 @@ var apts = instantsearch({
 
 var aptsHits = instantsearch.widgets.infiniteHits({
   container: document.querySelector('#hits'),
-  filters: '_geoloc.lat: != 0'
+  filters: '_geoloc.lat != 0'
   hitsPerPage: 5,
   showMoreLabel: 'Show more drop-off points',
   empty: '',
