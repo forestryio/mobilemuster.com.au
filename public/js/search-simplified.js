@@ -49,11 +49,11 @@ function app(opts) {
     })
   );
 
-  search.addWidget(
-    instantsearch.widgets.stats({
-      container: '#stats',
-    })
-  );
+  //search.addWidget(
+    //instantsearch.widgets.stats({
+      //container: '#stats',
+    //})
+  //);
 
   //search.addWidget(
     //instantsearch.widgets.sortBySelector({
@@ -208,9 +208,9 @@ var searchBox = instantsearch.widgets.searchBox({
   wrapInput: false
 });
 
-var stats = instantsearch.widgets.stats({
-    container: '#stats'
-});
+//var stats = instantsearch.widgets.stats({
+  //  container: '#stats'
+//});
 
 var customMapWidget = {
   _autocompleteContainer: document.querySelector('#places'),
@@ -287,7 +287,7 @@ var customMapWidget = {
 };
 
 apts.addWidget(searchBox);
-apts.addWidget(stats);
+//apts.addWidget(stats);
 apts.addWidget(aptsHits);
 apts.addWidget(customMapWidget);
 apts.start();
