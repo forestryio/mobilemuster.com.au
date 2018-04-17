@@ -42,6 +42,13 @@ var ready = createCommonjsModule(function (module) {
 });
 });
 
+
+
+var ready$2 = Object.freeze({
+	default: ready,
+	__moduleExports: ready
+});
+
 /*
  * classList.js: Cross-browser full element.classList implementation.
  * 1.1.20170427
@@ -297,10 +304,22 @@ if (!(HIDDEN in elproto)) {
 }
 
 'use strict';
+// polyfills HTMLElement.prototype.classList and DOMTokenList
+
+// polyfills HTMLElement.prototype.hidden
 
 var config = {
   prefix: 'usa',
 };
+
+var config_1 = config.prefix;
+
+
+var config$2 = Object.freeze({
+	default: config,
+	__moduleExports: config,
+	prefix: config_1
+});
 
 /*
 object-assign
@@ -393,6 +412,13 @@ var objectAssign = shouldUseNative() ? Object.assign : function (target, source)
 	return to;
 };
 
+
+
+var objectAssign$2 = Object.freeze({
+	default: objectAssign,
+	__moduleExports: objectAssign
+});
+
 /**
  * array-foreach
  *   Array#forEach ponyfill for older browsers
@@ -415,6 +441,13 @@ var arrayForeach = function forEach (ary, callback, thisArg) {
         callback.call(thisArg, ary[i], i, ary);
     }
 };
+
+
+
+var arrayForeach$2 = Object.freeze({
+	default: arrayForeach,
+	__moduleExports: arrayForeach
+});
 
 // element-closest | CC0-1.0 | github.com/jonathantneal/closest
 
@@ -450,9 +483,6 @@ var arrayForeach = function forEach (ary, callback, thisArg) {
 	}
 })(window.Element.prototype);
 
-// polyfill Element.prototype.closest
-
-
 var delegate = function delegate(selector, fn) {
   return function delegation(event) {
     var target = event.target.closest(selector);
@@ -462,6 +492,13 @@ var delegate = function delegate(selector, fn) {
   }
 };
 
+
+
+var delegate$2 = Object.freeze({
+	default: delegate,
+	__moduleExports: delegate
+});
+
 var compose = function compose(functions) {
   return function(e) {
     return functions.some(function(fn) {
@@ -469,6 +506,17 @@ var compose = function compose(functions) {
     }, this);
   };
 };
+
+
+
+var compose$2 = Object.freeze({
+	default: compose,
+	__moduleExports: compose
+});
+
+var delegate$3 = ( delegate$2 && delegate ) || delegate$2;
+
+var compose$3 = ( compose$2 && compose ) || compose$2;
 
 const SPLAT = '*';
 
@@ -483,11 +531,22 @@ var delegateAll = function delegateAll(selectors) {
   }
 
   const delegates = keys.reduce(function(memo, selector) {
-    memo.push(delegate(selector, selectors[selector]));
+    memo.push(delegate$3(selector, selectors[selector]));
     return memo;
   }, []);
-  return compose(delegates);
+  return compose$3(delegates);
 };
+
+
+
+var delegateAll$2 = Object.freeze({
+	default: delegateAll,
+	__moduleExports: delegateAll
+});
+
+var assign = ( objectAssign$2 && objectAssign ) || objectAssign$2;
+
+var delegateAll$3 = ( delegateAll$2 && delegateAll ) || delegateAll$2;
 
 const DELEGATE_PATTERN = /^(.+):delegate\((.+)\)$/;
 const SPACE = ' ';
@@ -511,16 +570,16 @@ const getListeners = function(type, handler) {
   var listener = {
     selector: selector,
     delegate: (typeof handler === 'object')
-      ? delegateAll(handler)
+      ? delegateAll$3(handler)
       : selector
-        ? delegate(selector, handler)
+        ? delegate$3(selector, handler)
         : handler,
     options: options
   };
 
   if (type.indexOf(SPACE) > -1) {
     return type.split(SPACE).map(function(_type) {
-      return objectAssign({type: _type}, listener);
+      return assign({type: _type}, listener);
     });
   } else {
     listener.type = type;
@@ -534,14 +593,14 @@ var popKey = function(obj, key) {
   return value;
 };
 
-var behavior$2 = function behavior(events, props) {
+var behavior$3 = function behavior(events, props) {
   const listeners = Object.keys(events)
     .reduce(function(memo, type) {
       var listeners = getListeners(type, events[type]);
       return memo.concat(listeners);
     }, []);
 
-  return objectAssign({
+  return assign({
     add: function addBehavior(element) {
       listeners.forEach(function(listener) {
         element.addEventListener(
@@ -563,6 +622,17 @@ var behavior$2 = function behavior(events, props) {
   }, props);
 };
 
+
+
+var behavior$5 = Object.freeze({
+	default: behavior$3,
+	__moduleExports: behavior$3
+});
+
+var forEach = ( arrayForeach$2 && arrayForeach ) || arrayForeach$2;
+
+var Behavior = ( behavior$5 && behavior$3 ) || behavior$5;
+
 var behavior = createCommonjsModule(function (module) {
 'use strict';
 
@@ -575,7 +645,7 @@ const sequence = function () {
     if (!target) {
       target = document.body;
     }
-    arrayForeach(seq, method => {
+    forEach(seq, method => {
       if (typeof this[ method ] === 'function') {
         this[ method ].call(this, target);
       }
@@ -590,11 +660,18 @@ const sequence = function () {
  * @return {receptor.behavior}
  */
 module.exports = (events, props) => {
-  return behavior$2(events, objectAssign({
+  return Behavior(events, assign({
     on:   sequence('init', 'add'),
     off:  sequence('teardown', 'remove'),
   }, props));
 };
+});
+
+
+
+var behavior$2 = Object.freeze({
+	default: behavior,
+	__moduleExports: behavior
 });
 
 /**
@@ -622,6 +699,13 @@ var arrayFilter = function (arr, fn, self) {
 
 var hasOwn = Object.prototype.hasOwnProperty;
 
+
+
+var arrayFilter$2 = Object.freeze({
+	default: arrayFilter,
+	__moduleExports: arrayFilter
+});
+
 var toggle = createCommonjsModule(function (module) {
 'use strict';
 const EXPANDED = 'aria-expanded';
@@ -648,6 +732,13 @@ module.exports = (button, expanded) => {
 };
 });
 
+
+
+var toggle$2 = Object.freeze({
+	default: toggle,
+	__moduleExports: toggle
+});
+
 // https://stackoverflow.com/a/7557433
 function isElementInViewport (el, win=window,
                               docEl=document.documentElement) {
@@ -662,6 +753,13 @@ function isElementInViewport (el, win=window,
 }
 
 var isInViewport = isElementInViewport;
+
+
+
+var isInViewport$2 = Object.freeze({
+	default: isInViewport,
+	__moduleExports: isInViewport
+});
 
 var events = {
   // This used to be conditionally dependent on whether the
@@ -679,6 +777,27 @@ var events = {
   CLICK: 'click',
 };
 
+var events_1 = events.CLICK;
+
+
+var events$2 = Object.freeze({
+	default: events,
+	__moduleExports: events,
+	CLICK: events_1
+});
+
+var behavior$6 = ( behavior$2 && behavior ) || behavior$2;
+
+var filter = ( arrayFilter$2 && arrayFilter ) || arrayFilter$2;
+
+var toggle$3 = ( toggle$2 && toggle ) || toggle$2;
+
+var isElementInViewport$1 = ( isInViewport$2 && isInViewport ) || isInViewport$2;
+
+var require$$0 = ( events$2 && events ) || events$2;
+
+var require$$0$1 = ( config$2 && config ) || config$2;
+
 var accordion_1 = createCommonjsModule(function (module) {
 'use strict';
 
@@ -687,8 +806,8 @@ var accordion_1 = createCommonjsModule(function (module) {
 
 
 
-const CLICK = events.CLICK;
-const PREFIX = config.prefix;
+const CLICK = require$$0.CLICK;
+const PREFIX = require$$0$1.prefix;
 
 // XXX match .usa-accordion and .usa-accordion-bordered
 const ACCORDION = `.${PREFIX}-accordion, .${PREFIX}-accordion-bordered`;
@@ -711,14 +830,14 @@ const toggleButton = (button, expanded) => {
     throw new Error(`${BUTTON} is missing outer ${ACCORDION}`);
   }
 
-  expanded = toggle(button, expanded);
+  expanded = toggle$3(button, expanded);
   // XXX multiselectable is opt-in, to preserve legacy behavior
   const multiselectable = accordion.getAttribute(MULTISELECTABLE) === 'true';
 
   if (expanded && !multiselectable) {
-    arrayForeach(getAccordionButtons(accordion), other => {
+    forEach(getAccordionButtons(accordion), other => {
       if (other !== button) {
-        toggle(other, false);
+        toggle$3(other, false);
       }
     });
   }
@@ -743,12 +862,12 @@ const hideButton = button => toggleButton(button, false);
  * @return {array<HTMLButtonElement>}
  */
 const getAccordionButtons = accordion => {
-  return arrayFilter(accordion.querySelectorAll(BUTTON), button => {
+  return filter(accordion.querySelectorAll(BUTTON), button => {
     return button.closest(ACCORDION) === accordion;
   });
 };
 
-const accordion = behavior({
+const accordion = behavior$6({
   [ CLICK ]: {
     [ BUTTON ]: function (event) {
       event.preventDefault();
@@ -758,13 +877,13 @@ const accordion = behavior({
         // We were just expanded, but if another accordion was also just
         // collapsed, we may no longer be in the viewport. This ensures
         // that we are still visible, so the user isn't confused.
-        if (!isInViewport(this)) this.scrollIntoView();
+        if (!isElementInViewport$1(this)) this.scrollIntoView();
       }
     },
   },
 }, {
   init: root => {
-    arrayForeach(root.querySelectorAll(BUTTON), button => {
+    forEach(root.querySelectorAll(BUTTON), button => {
       const expanded = button.getAttribute(EXPANDED) === 'true';
       toggleButton(button, expanded);
     });
@@ -790,7 +909,7 @@ const Accordion = function (root) {
 
 // copy all of the behavior methods and props to Accordion
 
-objectAssign(Accordion, accordion);
+assign(Accordion, accordion);
 
 Accordion.prototype.show = showButton;
 Accordion.prototype.hide = hideButton;
@@ -802,12 +921,19 @@ Accordion.prototype.remove = function () {
 module.exports = Accordion;
 });
 
+
+
+var accordion = Object.freeze({
+	default: accordion_1,
+	__moduleExports: accordion_1
+});
+
 'use strict';
 
 
 
-const CLICK = events.CLICK;
-const PREFIX = config.prefix;
+const CLICK = require$$0.CLICK;
+const PREFIX = require$$0$1.prefix;
 
 const HEADER = `.${PREFIX}-banner-header`;
 const EXPANDED_CLASS = `${PREFIX}-banner-header-expanded`;
@@ -818,22 +944,19 @@ const toggleBanner = function (event) {
   return false;
 };
 
-var banner = behavior({
+var banner = behavior$6({
   [ CLICK ]: {
     [ `${HEADER} [aria-controls]` ]: toggleBanner,
   },
 });
 
-/**
- * lodash (Custom Build) <https://lodash.com/>
- * Build: `lodash modularize exports="npm" -o ./`
- * Copyright jQuery Foundation and other contributors <https://jquery.org/>
- * Released under MIT license <https://lodash.com/license>
- * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
- * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- */
 
-/** Used as the `TypeError` message for "Functions" methods. */
+
+var banner$2 = Object.freeze({
+	default: banner,
+	__moduleExports: banner
+});
+
 var FUNC_ERROR_TEXT = 'Expected a function';
 
 /** Used as references for various `Number` constants. */
@@ -1202,6 +1325,13 @@ function toNumber(value) {
 
 var lodash_debounce = debounce;
 
+
+
+var lodash_debounce$2 = Object.freeze({
+	default: lodash_debounce,
+	__moduleExports: lodash_debounce
+});
+
 var select = createCommonjsModule(function (module) {
 'use strict';
 
@@ -1238,6 +1368,19 @@ module.exports = function select (selector, context) {
 };
 });
 
+
+
+var select$2 = Object.freeze({
+	default: select,
+	__moduleExports: select
+});
+
+var accordion$1 = ( accordion && accordion_1 ) || accordion;
+
+var debounce$1 = ( lodash_debounce$2 && lodash_debounce ) || lodash_debounce$2;
+
+var select$3 = ( select$2 && select ) || select$2;
+
 'use strict';
 
 
@@ -1245,8 +1388,8 @@ module.exports = function select (selector, context) {
 
 
 
-const CLICK$1 = events.CLICK;
-const PREFIX$1 = config.prefix;
+const CLICK$1 = require$$0.CLICK;
+const PREFIX$1 = require$$0$1.prefix;
 
 const HIDDEN$1 = 'hidden';
 const SCOPE = `.${PREFIX$1}-footer-big`;
@@ -1266,21 +1409,21 @@ const showPanel = function () {
   const lists = list.closest(NAV)
     .querySelectorAll('ul');
 
-  arrayForeach(lists, el => {
+  forEach(lists, el => {
     if (el !== list) {
       el.classList.add(HIDDEN$1);
     }
   });
 };
 
-const resize = lodash_debounce(() => {
+const resize = debounce$1(() => {
   const hidden = window.innerWidth < HIDE_MAX_WIDTH;
-  arrayForeach(select(LIST), list => {
+  forEach(select$3(LIST), list => {
     list.classList.toggle(HIDDEN$1, hidden);
   });
 }, DEBOUNCE_RATE);
 
-var footer = behavior({
+var footer = behavior$6({
   [ CLICK$1 ]: {
     [ BUTTON ]: showPanel,
   },
@@ -1299,14 +1442,21 @@ var footer = behavior({
   },
 });
 
+
+
+var footer$2 = Object.freeze({
+	default: footer,
+	__moduleExports: footer
+});
+
 'use strict';
 
 
 
 
 
-const CLICK$2 = events.CLICK;
-const PREFIX$2 = config.prefix;
+const CLICK$2 = require$$0.CLICK;
+const PREFIX$2 = require$$0$1.prefix;
 
 const NAV$1 = `.${PREFIX$2}-nav`;
 const NAV_LINKS = `${NAV$1} a`;
@@ -1328,7 +1478,7 @@ const toggleNav = function (active) {
   }
   body.classList.toggle(ACTIVE_CLASS, active);
 
-  arrayForeach(select(TOGGLES), el => {
+  forEach(select$3(TOGGLES), el => {
     el.classList.toggle(VISIBLE_CLASS, active);
   });
 
@@ -1364,7 +1514,7 @@ const resize$1 = () => {
   }
 };
 
-const navigation = behavior({
+const navigation = behavior$6({
   [ CLICK$2 ]: {
     [ OPENERS ]: toggleNav,
     [ CLOSERS ]: toggleNav,
@@ -1375,9 +1525,9 @@ const navigation = behavior({
 
       // Some navigation links are inside accordions; when they're
       // clicked, we want to collapse those accordions.
-      const acc = this.closest(accordion_1.ACCORDION);
+      const acc = this.closest(accordion$1.ACCORDION);
       if (acc) {
-        accordion_1.getButtons(acc).forEach(btn => accordion_1.hide(btn));
+        accordion$1.getButtons(acc).forEach(btn => accordion$1.hide(btn));
       }
 
       // If the mobile navigation menu is active, we want to hide it.
@@ -1402,10 +1552,17 @@ const navigation = behavior({
  * module.exports = behavior({...});
  */
 
-var navigation_1 = objectAssign(
+var navigation_1 = assign(
   el => navigation.on(el),
   navigation
 );
+
+
+
+var navigation$1 = Object.freeze({
+	default: navigation_1,
+	__moduleExports: navigation_1
+});
 
 'use strict';
 
@@ -1452,6 +1609,13 @@ var resolveIdRefs = function resolveIds(ids, doc) {
     });
 };
 
+
+
+var resolveIdRefs$2 = Object.freeze({
+	default: resolveIdRefs,
+	__moduleExports: resolveIdRefs
+});
+
 /**
  * Flips given INPUT elements between masked (hiding the field value) and unmasked
  * @param {Array.HTMLElement} fields - An array of INPUT elements
@@ -1462,6 +1626,17 @@ var toggleFieldMask = (field, mask) => {
   field.setAttribute('autocorrect', 'off');
   field.setAttribute('type', mask ? 'password' : 'text');
 };
+
+
+
+var toggleFieldMask$2 = Object.freeze({
+	default: toggleFieldMask,
+	__moduleExports: toggleFieldMask
+});
+
+var resolveIdRefs$3 = ( resolveIdRefs$2 && resolveIdRefs ) || resolveIdRefs$2;
+
+var toggleFieldMask$3 = ( toggleFieldMask$2 && toggleFieldMask ) || toggleFieldMask$2;
 
 var toggleFormInput = createCommonjsModule(function (module) {
 'use strict';
@@ -1502,8 +1677,8 @@ module.exports = el => {
   const pressed = el.hasAttribute(PRESSED)
     && el.getAttribute(PRESSED) !== 'true';
 
-  const fields = resolveIdRefs(el.getAttribute(CONTROLS));
-  arrayForeach(fields, field => toggleFieldMask(field, pressed));
+  const fields = resolveIdRefs$3(el.getAttribute(CONTROLS));
+  forEach(fields, field => toggleFieldMask$3(field, pressed));
 
   if (!el.hasAttribute(SHOW_ATTR)) {
     el.setAttribute(SHOW_ATTR, el.textContent);
@@ -1518,24 +1693,40 @@ module.exports = el => {
 };
 });
 
+
+
+var toggleFormInput$2 = Object.freeze({
+	default: toggleFormInput,
+	__moduleExports: toggleFormInput
+});
+
+var toggleFormInput$3 = ( toggleFormInput$2 && toggleFormInput ) || toggleFormInput$2;
+
 'use strict';
 
 
 
-const CLICK$3 = events.CLICK;
-const PREFIX$3 = config.prefix;
+const CLICK$3 = require$$0.CLICK;
+const PREFIX$3 = require$$0$1.prefix;
 
 const LINK = `.${PREFIX$3}-show_password, .${PREFIX$3}-show_multipassword`;
 
-const toggle$3 = function (event) {
+const toggle$4 = function (event) {
   event.preventDefault();
-  toggleFormInput(this);
+  toggleFormInput$3(this);
 };
 
-var password = behavior({
+var password = behavior$6({
   [ CLICK$3 ]: {
-    [ LINK ]: toggle$3,
+    [ LINK ]: toggle$4,
   },
+});
+
+
+
+var password$2 = Object.freeze({
+	default: password,
+	__moduleExports: password
 });
 
 var ignore = function ignore(element, fn) {
@@ -1546,6 +1737,15 @@ var ignore = function ignore(element, fn) {
   };
 };
 
+
+
+var ignore$2 = Object.freeze({
+	default: ignore,
+	__moduleExports: ignore
+});
+
+var ignore$3 = ( ignore$2 && ignore ) || ignore$2;
+
 var search_1 = createCommonjsModule(function (module) {
 'use strict';
 
@@ -1553,8 +1753,8 @@ var search_1 = createCommonjsModule(function (module) {
 
 
 
-const CLICK = events.CLICK;
-const PREFIX = config.prefix;
+const CLICK = require$$0.CLICK;
+const PREFIX = require$$0$1.prefix;
 
 const BUTTON = '.js-search-button';
 const FORM = '.js-search-form';
@@ -1597,7 +1797,7 @@ const toggleSearch = (button, active) => {
     }
     // when the user clicks _outside_ of the form w/ignore(): hide the
     // search, then remove the listener
-    const listener = ignore(form, e => {
+    const listener = ignore$3(form, e => {
       if (lastButton) {
         hideSearch.call(lastButton);
       }
@@ -1615,13 +1815,13 @@ const toggleSearch = (button, active) => {
   }
 };
 
-const search = behavior({
+const search = behavior$6({
   [ CLICK ]: {
     [ BUTTON ]: showSearch,
   },
 }, {
   init: (target) => {
-    arrayForeach(select(BUTTON, target), button => {
+    forEach(select$3(BUTTON, target), button => {
       toggleSearch(button, false);
     });
   },
@@ -1637,10 +1837,17 @@ const search = behavior({
  * module.exports = behavior({...});
  */
 
-module.exports = objectAssign(
+module.exports = assign(
   el => search.on(el),
   search
 );
+});
+
+
+
+var search = Object.freeze({
+	default: search_1,
+	__moduleExports: search_1
 });
 
 var once = function once(listener, options) {
@@ -1651,12 +1858,21 @@ var once = function once(listener, options) {
   return wrapped;
 };
 
+
+
+var once$2 = Object.freeze({
+	default: once,
+	__moduleExports: once
+});
+
+var once$3 = ( once$2 && once ) || once$2;
+
 'use strict';
 
 
 
-const CLICK$4 = events.CLICK;
-const PREFIX$4 = config.prefix;
+const CLICK$4 = require$$0.CLICK;
+const PREFIX$4 = require$$0$1.prefix;
 const LINK$1 = `.${PREFIX$4}-skipnav[href^="#"]`;
 
 const setTabindex = function (event) {
@@ -1666,7 +1882,7 @@ const setTabindex = function (event) {
   const target = document.getElementById(id);
   if (target) {
     target.setAttribute('tabindex', 0);
-    target.addEventListener('blur', once(event => {
+    target.addEventListener('blur', once$3(event => {
       target.setAttribute('tabindex', -1);
     }));
   } else {
@@ -1674,10 +1890,17 @@ const setTabindex = function (event) {
   }
 };
 
-var skipnav = behavior({
+var skipnav = behavior$6({
   [ CLICK$4 ]: {
     [ LINK$1 ]: setTabindex,
   },
+});
+
+
+
+var skipnav$2 = Object.freeze({
+	default: skipnav,
+	__moduleExports: skipnav
 });
 
 'use strict';
@@ -1737,15 +1960,24 @@ var dist = useNative() ? nativeDataset : function (element) {
 	return map;
 };
 
+
+
+var dist$2 = Object.freeze({
+	default: dist,
+	__moduleExports: dist
+});
+
+var dataset = ( dist$2 && dist ) || dist$2;
+
 'use strict';
 
 
-const PREFIX$5 = config.prefix;
+const PREFIX$5 = require$$0$1.prefix;
 const CHECKED = 'aria-checked';
 const CHECKED_CLASS = `${PREFIX$5}-checklist-checked`;
 
 var validateInput = function validate (el) {
-  const data = dist(el);
+  const data = dataset(el);
   const id = data.validationElement;
   const checkList = id.charAt(0) === '#'
     ? document.querySelector(id)
@@ -1776,16 +2008,25 @@ var validateInput = function validate (el) {
   }
 };
 
+
+
+var validateInput$2 = Object.freeze({
+	default: validateInput,
+	__moduleExports: validateInput
+});
+
+var validate = ( validateInput$2 && validateInput ) || validateInput$2;
+
 'use strict';
 
 
 
 
 const change = function (event) {
-  return validateInput(this);
+  return validate(this);
 };
 
-const validator = behavior({
+const validator = behavior$6({
   'keyup change': {
     'input[data-validation-element]': change,
   },
@@ -1797,21 +2038,69 @@ const validator = behavior({
  * module.exports = behavior({...});
  */
 
-var validator_1 = objectAssign(
+var validator_1 = assign(
   el => validator.on(el),
   validator
 );
 
+
+
+var validator$1 = Object.freeze({
+	default: validator_1,
+	__moduleExports: validator_1
+});
+
+var require$$1 = ( banner$2 && banner ) || banner$2;
+
+var require$$2 = ( footer$2 && footer ) || footer$2;
+
+var require$$3 = ( navigation$1 && navigation_1 ) || navigation$1;
+
+var require$$4 = ( password$2 && password ) || password$2;
+
+var require$$5 = ( search && search_1 ) || search;
+
+var require$$6 = ( skipnav$2 && skipnav ) || skipnav$2;
+
+var require$$7 = ( validator$1 && validator_1 ) || validator$1;
+
 var components = {
-  accordion:  accordion_1,
-  banner:     banner,
-  footer:     footer,
-  navigation: navigation_1,
-  password:   password,
-  search:     search_1,
-  skipnav:    skipnav,
-  validator:  validator_1,
+  accordion:  accordion$1,
+  banner:     require$$1,
+  footer:     require$$2,
+  navigation: require$$3,
+  password:   require$$4,
+  search:     require$$5,
+  skipnav:    require$$6,
+  validator:  require$$7,
 };
+
+var components_1 = components.accordion;
+var components_2 = components.banner;
+var components_3 = components.footer;
+var components_4 = components.navigation;
+var components_5 = components.password;
+var components_6 = components.search;
+var components_7 = components.skipnav;
+var components_8 = components.validator;
+
+
+var components$2 = Object.freeze({
+	default: components,
+	__moduleExports: components,
+	accordion: components_1,
+	banner: components_2,
+	footer: components_3,
+	navigation: components_4,
+	password: components_5,
+	search: components_6,
+	skipnav: components_7,
+	validator: components_8
+});
+
+var domready = ( ready$2 && ready ) || ready$2;
+
+var components$3 = ( components$2 && components ) || components$2;
 
 'use strict';
 
@@ -1825,12 +2114,12 @@ var components = {
 
 
 
-config.components = components;
+require$$0$1.components = components$3;
 
-ready(() => {
+domready(() => {
   const target = document.body;
-  for (let name in components) {
-    const behavior = components[ name ];
+  for (let name in components$3) {
+    const behavior = components$3[ name ];
     behavior.on(target);
   }
 });
