@@ -1,6 +1,7 @@
 ---
 title: MobileMuster Committed to Working with Councils
 date: '2018-04-20T13:33:11+10:00'
+image: /uploads/square-lunamik.jpg
 intro: >-
   Recently in the media there have been a number of news stories about local
   councils stopping their curbside recycling services due to cost increases
@@ -16,4 +17,4 @@ In instances where local councils do not support mobile phone recycling then con
 
 If your council doesn’t currently participate in the MobileMuster program and is interested in getting involved visit our [partners page](https://www.mobilemuster.com.au/partners/#join) to register. Once registered MobileMuster provides councils with free collection units tailored for admin centres, libraries and waste transfer sites, plus resources to promote mobile phone recycling to their residents.
 
-![](/uploads/coaoy247cfkn1gfkeogv.jpg)
+![null](/uploads/coaoy247cfkn1gfkeogv.jpg)
