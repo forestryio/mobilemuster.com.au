@@ -5,10 +5,17 @@ fimage: ''
 date: 2018-01-31T13:00:00.000Z
 ---
 By recycling your mobile, you'll be avoiding future greenhouse gas emissions, saving energy, protecting the environment and conserving natural resources. You're also preventing potentially hazardous materials from entering the environment.
-\
 ![](/uploads/environmental%20benefits.jpg)
 
 ### Educators
+
+```
+<iframe src="https://player.vimeo.com/video/265126147" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+```
+
+```
+<p><a href="https://vimeo.com/265126147">MobileMuster - The Benefits of Recycling</a> from <a href="https://vimeo.com/mobilemuster">MobileMuster</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+```
 
 MobileMuster has created a schools program to provide teachers and students with practical and engaging learning resources. Our learning resources are aligned to the Australian curriculum and specific modules have been developed for Early Learning, Primary and Secondary students.\
 \
