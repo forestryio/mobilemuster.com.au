@@ -4,6 +4,7 @@ Disallow: /
 {{ else }}
 Disallow: {{ if ne (getenv "HUGO_ENV") "production" }}/{{ end }}
 {{ end }}
+Disallow: old.mobilemuster.com.au/*
 Disallow: /cms
 Disallow: /admin
 Disallow: /login

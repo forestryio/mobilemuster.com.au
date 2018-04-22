@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /
 
+Disallow: old.mobilemuster.com.au/*
 Disallow: /cms
 Disallow: /admin
 Disallow: /login
