@@ -19,6 +19,27 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+          - label: "Banner"
+            name: "banner"
+            widget: "relation"
+            collection: "banner"
+            searchFields: ["label", "heading", "summary"]
+            valueField: "id"
+
+  - name: "banner"
+    label: "Banners"
+    label_singular: "Banner"
+    folder: "banners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Id", name: "id", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Label", name: "label", widget: "string", required: true }
+      - { label: "Heading", name: "heading", widget: "string", required: true }
+      - { label: "Summary", name: "summary", widget: "string", required: true }
+      - { label: "Cta", name: "cta", widget: "string", required: true }
 
   - name: "page"
     label: "Pages"
