@@ -1,8 +1,9 @@
 ---
-url: "/mobile-for-a-meal/"
-title: "Mobile for a Meal"
-subtitle: "Recycle your mobile this summer and we’ll donate a meal to someone in need through OzHarvest."
+url: '/mobile-for-a-meal/'
+title: 'Mobile for a Meal'
+subtitle: 'Recycle your mobile this summer and we’ll donate a meal to someone in need through OzHarvest.'
 date: 2018-01-31T13:00:00.000Z
+type: 'default'
 ---
 
 Recycle your mobile this summer and we’ll donate a meal to someone in need through OzHarvest, Australia’s leading food rescue organisation. <a href='terms-and-conditions/'>Terms and Conditions</a> apply.

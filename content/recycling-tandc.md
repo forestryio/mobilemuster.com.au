@@ -1,5 +1,5 @@
 ---
-title: "Recycling Terms and Conditions"
+title: 'Recycling Terms and Conditions'
 url: "/recycling/terms-and-conditions/"
 date: 2017-12-01T02:24:21+11:00
 draft: false
@@ -32,5 +32,6 @@ section5c: ""
 section6t: ""
 section6l: ""
 section6c: ""
+type: 'default'
 ---
 
