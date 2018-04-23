@@ -1,8 +1,9 @@
 ---
-title: "Partners"
-subtitle: "We partner with Australian retailers, repair stores, councils, schools and workplaces."
+title: Partners
+subtitle: >-
+  We partner with Australian retailers, repair stores, councils, schools and
+  workplaces.
 date: 2018-01-31T13:00:00.000Z
-type: "default"
 ---
 MobileMuster partners with a variety of retailers, repair stores, local councils and workplaces across Australia to make it easy and accessible for mobile phone users to recycle in their community.
 
@@ -18,7 +19,6 @@ MobileMuster partners with a variety of retailers, repair stores, local councils
 
 ## Resources
 
-
 To make things easier, we have created a range of resources for you to promote being a MobileMuster collection partner. Use our recycling posters to promote your MobileMuster collection unit. If you are creating your own resources use [our official logo](../resources/mobilemuster-official-logo.jpg) to promote being a MobileMuster collection partner. If you require another file format, please [contact us](../contact/).
 
 ![](/uploads/posters website.jpg)
@@ -33,7 +33,7 @@ Share our[ data management tips](https://www.mobilemuster.com.au/recycling/) and
 
 # Social Media
 
-Download and use our social media images below for Facebook and Instagram. Be sure to tag **\#mobilemuster** on social media so we can share your message. Find us at[@mobilemuster on Facebook ](https://www.facebook.com/mobilemuster)and [@mobilemuster1 on Twitter](../partners/), [Instagram ](https://instagram.com/mobilemuster1)and [Youtube](https://www.youtube.com/channel/UCbDvHea3HSR87hMYdkJ50Fg).
+Download and use our social media images below for Facebook and Instagram. Be sure to tag **\#mobilemuster** on social media so we can share your message. Find us at [@mobilemuster on Facebook ](https://www.facebook.com/mobilemuster)and [@mobilemuster1 on Twitter](../partners/), [Instagram ](https://instagram.com/mobilemuster1)and [Youtube](https://www.youtube.com/channel/UCbDvHea3HSR87hMYdkJ50Fg).
 
 ![Instagram Collection Partner ](/uploads/mob_collectionpartner_instagram_2.v1.jpg)
 
