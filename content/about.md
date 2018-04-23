@@ -1,8 +1,8 @@
 ---
-title: 'About'
+title: About
 subtitle: 'MobileMuster is a safe, secure, and ethical phone recycling program.'
 date: 2018-01-31T13:00:00.000Z
-type: 'default'
+type: default
 ---
 MobileMuster provides a free mobile phone recycling program that accepts all brands and types of mobile phones, plus their batteries, chargers and accessories. It is the mobile phone industry's way of ensuring old mobile phone products don't end up in landfill - but instead are recycled in a safe, secure and ethical way.\
 \
