@@ -1,66 +1,60 @@
 {{ define "main" }}
 
-
-
-    <section class="mv5 pv0 usa-grid usa-section">
-      <div class="usa-width-two-thirds">
-        <section class="mw6 mw8-ns dib bggreen white pa3">
-          <h2 class="mv0">
-            Latest News
-          </h2>
-        </section>
-      </div>
-    </section>
-
-
-
-
   <section class="mv5 pv0 usa-grid usa-section">
-      <div class="usa-width-four-fourths usa-layout-docs-main_content">
-          <main class='pa0' id="main-content">
-              {{ partial "hero" . }}
-          </main>
-      </div>
+    <div class="usa-width-two-thirds">
+      <section class="mw6 mw8-ns dib bggreen white pa3">
+        <h2 class="mv0">
+          Latest News
+        </h2>
+      </section>
+    </div>
   </section>
 
+  <section class="mv5 pv0 usa-grid usa-section">
+    <div class="usa-width-four-fourths usa-layout-docs-main_content">
+      <main class='pa0' id="main-content">
+        {{ partial "hero" . }}
+      </main>
+    </div>
+  </section>
 
   <section class="mb5 pv0 usa-grid usa-section">
-      <div class="usa-width-three-fourths usa-layout-docs-main_content">
-          <main class="" id="main-content">
-              {{ range .Paginator.Pages }}
-              <div id="{{ with .Params.Shortlink }}{{ . }}{{ end }}" class="pt5 bb b--black-10 usa-width-full usa-media_block">
-                <img class="mr5 usa-media_block-img"  src="/img/mm/mm-m-small.png" alt="Alt text">
-                <div class="pb4 usa-media_block-body">
-                  <!--span class="mb4 gray">September 27, 2017</span-->
-                  <h3 class="mv0 mw7"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    {{ with .Params.intro }}
-                      <p class="w-100 mt2">
-                        {{ . }}
-                      </p>
-                    {{ end }}
-
-                  {{ if .IsHome }}
-                    <a class="" href="/news/#ChemClear">Read More &rarr;</a>
-                  {{ else }}
-                    <ul class="usa-accordion mw8">
-                      <li>
-                        <button class="usa-accordion-button"
-                          aria-expanded="false"
-                          aria-controls="{{ .Params.date }}">
-                          Read Here
-                        </button>
-                        <div id="{{ .Params.date }}" class="ph0 usa-accordion-content">
-                          {{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
-                        </div>
-                      </li>
-                    </ul>
-                  {{ end }}
-                </div>
-              </div>
+    <div class="usa-width-three-fourths usa-layout-docs-main_content">
+      <main class="" id="main-content">
+        {{ range .Paginator.Pages }}
+        <div id="{{ with .Params.Shortlink }}{{ . }}{{ end }}" class="pt5 bb b--black-10 usa-width-full usa-media_block">
+          <img class="mr5 usa-media_block-img"  src="/img/mm/mm-m-small.png" alt="Alt text">
+          <div class="pb4 usa-media_block-body">
+            <!--span class="mb4 gray">September 27, 2017</span-->
+            <h3 class="mv0 mw7"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+              {{ with .Params.intro }}
+                <p class="w-100 mt2">
+                  {{ . }}
+                </p>
               {{ end }}
-              {{ template "_internal/pagination.html" . }}
-          </main>
-      </div>
+
+            {{ if .IsHome }}
+              <a class="" href="/news/#ChemClear">Read More &rarr;</a>
+            {{ else }}
+              <ul class="usa-accordion mw8">
+                <li>
+                  <button class="usa-accordion-button"
+                    aria-expanded="false"
+                    aria-controls="{{ .Params.date }}">
+                    Read Here
+                  </button>
+                  <div id="{{ .Params.date }}" class="ph0 usa-accordion-content">
+                    {{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
+                  </div>
+                </li>
+              </ul>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+      </main>
+    </div>
   </section>
 
 {{ end }}

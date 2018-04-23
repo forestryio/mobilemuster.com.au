@@ -1,18 +1,12 @@
-
-
 {{ define "main" }}
 
   <main id="main-content">
 
     {{ partial "intro-search" . }}
-
-    <!--{{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}-->
-
     {{ partial "hero" . }}
     {{ partial "cta-blocks" . }}
     {{ partial "stat-blocks" . }}
     {{ partial "brick-1" . }}
-    <!--{{ partial "news" . }}-->
 
     <section class="mv5 pv0 usa-grid usa-section">
       <div class="usa-width-two-thirds">
@@ -24,48 +18,37 @@
       </div>
     </section>
 
-
     {{range first 3 (where .Data.Pages "Section" "news") }}
-        <section class="mv0 pv0 usa-grid usa-section">
-            <div class="usa-width-three-fourths usa-layout-docs-main_content">
-                <main class="" id="main-content">
-
-                    <div id="{{ with .Params.Shortlink }}{{ . }}{{ end }}" class="pv5 bb b--black-10 usa-width-full usa-media_block">
-                      <img class="mr5 usa-media_block-img"  src="/img/mm/mm-m-small.png" alt="Alt text">
-                      <div class="pb0 usa-media_block-body">
-                        <!--span class="mb4 gray">September 27, 2017</span-->
-                        <h3 class="mv0 mw7"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                          {{ with .Params.intro }}
-                            <p class="w-100 mt2">
-                              {{ . }}
-                            </p>
-                          {{ end }}
-
-
-                          <a class="" href="/news/#{{ .Params.shortlink }}">Read More &rarr;</a>
-
-                      </div>
-                    </div>
-
-
-
-                </main>
-            </div>
-        </section>
-
-      {{ end }}
-
       <section class="mv0 pv0 usa-grid usa-section">
-          <div class="usa-width-three-fourths usa-layout-docs-main_content">
-              <main class="" id="main-content">
-                  <a href="/news/"><h4 class="mt4">See All the latest MobileMuster News &rarr;</h4></a>
-              </main>
-          </div>
+        <div class="usa-width-three-fourths usa-layout-docs-main_content">
+          <main class="" id="main-content">
+
+            <div id="{{ with .Params.Shortlink }}{{ . }}{{ end }}" class="pv5 bb b--black-10 usa-width-full usa-media_block">
+              <img class="mr5 usa-media_block-img"  src="/img/mm/mm-m-small.png" alt="Alt text">
+              <div class="pb0 usa-media_block-body">
+                <h3 class="mv0 mw7"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                {{ with .Params.intro }}
+                  <p class="w-100 mt2">{{ . }}</p>
+                {{ end }}
+                <a class="" href="/news/#{{ .Params.shortlink }}">Read More &rarr;</a>
+              </div>
+            </div>
+
+          </main>
+        </div>
       </section>
+    {{ end }}
+
+    <section class="mv0 pv0 usa-grid usa-section">
+      <div class="usa-width-three-fourths usa-layout-docs-main_content">
+        <main class="" id="main-content">
+          <a href="/news/"><h4 class="mt4">See All the latest MobileMuster News &rarr;</h4></a>
+        </main>
+      </div>
+    </section>
 
     {{ partial "brick-2" . }}
 
   </main>
 
 {{ end }}
-

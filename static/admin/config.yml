@@ -29,7 +29,7 @@ collections:
   - name: "banner"
     label: "Banners"
     label_singular: "Banner"
-    folder: "banners"
+    folder: "content/banners"
     create: true
     slug: "{{slug}}"
     fields:
