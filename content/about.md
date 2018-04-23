@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: 'MobileMuster is a safe, secure, and ethical phone recycling program'
+subtitle: 'MobileMuster is a safe, secure, and ethical phone recycling program.'
 date: 2018-01-31T13:00:00.000Z
 type: default
 ---
