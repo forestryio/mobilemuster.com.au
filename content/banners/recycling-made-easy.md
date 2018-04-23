@@ -1,5 +1,5 @@
 ---
-title: recycling-made-easy
+title: banner-homepage
 image: /uploads/draw.jpg
 label: Recycling Made Easy
 heading: Do you have a phone that could be recycled?
