@@ -1,8 +1,8 @@
 ---
-title: 'Partners'
-subtitle: 'We partner with Australian retailers, repair stores, councils, schools and workplaces.'
+title: "Partners"
+subtitle: "We partner with Australian retailers, repair stores, councils, schools and workplaces."
 date: 2018-01-31T13:00:00.000Z
-type: 'default'
+type: "default"
 ---
 MobileMuster partners with a variety of retailers, repair stores, local councils and workplaces across Australia to make it easy and accessible for mobile phone users to recycle in their community.
 
