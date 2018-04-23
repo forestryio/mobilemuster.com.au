@@ -1,6 +1,5 @@
 ---
-title: Homepage - Recycling Made Easy
-id: recycling-made-easy
+title: recycling-made-easy
 image: /uploads/draw.jpg
 label: Recycling Made Easy
 heading: Do you have a phone that could be recycled?

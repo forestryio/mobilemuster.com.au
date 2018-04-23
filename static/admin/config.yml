@@ -24,7 +24,7 @@ collections:
             widget: "relation"
             collection: "banner"
             searchFields: ["label", "heading", "summary"]
-            valueField: "id"
+            valueField: "title"
 
   - name: "banner"
     label: "Banners"
@@ -34,7 +34,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Id", name: "id", widget: "string" }
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Label", name: "label", widget: "string", required: true }
       - { label: "Heading", name: "heading", widget: "string", required: true }
