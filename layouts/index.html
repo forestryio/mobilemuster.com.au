@@ -2,12 +2,91 @@
 
   <main id="main-content">
 
+    <!-- INTRO SEARCH -->
     {{ partial "intro-search" . }}
-    {{ partial "hero" . }}
-    {{ partial "cta-blocks" . }}
-    {{ partial "stat-blocks" . }}
-    {{ partial "brick-1" . }}
 
+    <!-- BANNER -->
+    {{ with .Site.GetPage "page" "banners"  (printf "%s.md" .Params.banner) }}
+      {{ partial "banner-home" . }}
+    {{ end }}
+
+    <!-- CTA BLOCKS -->
+    <section class="mv5 usa-hero">
+      <div class="usa-grid">
+        <div class="usa-width-one-third">
+          <div class="mb4 bglogo {{ if .IsHome }}br3{{end}} usa-hero-callout usa-section-dark">
+            <h2><span class="usa-hero-callout-alt">Why recycle?</span></h2>
+            <a class="usa-hero-link" href="/recycling/">The benefits of recycling</a>
+            <br><br>
+          </div>
+        </div>
+        <div class="usa-width-one-third">
+          <div class="mb4 bglogo {{ if .IsHome }}br3{{end}} usa-hero-callout usa-section-dark">
+            <h2><span class="usa-hero-callout-alt">How to recycle.</span></h2>
+            <a class="usa-hero-link" href="/recycling/#what-is-accepted">Keeping your personal data secure</a><br><br>
+          </div>
+        </div>
+        <div class="usa-width-one-third">
+          <div class="mb4 bglogo {{ if .IsHome }}br3{{end}} usa-hero-callout usa-section-dark">
+            <h2><span class="usa-hero-callout-alt">Book a collection.</span></h2>
+            <a class="usa-hero-link" target="_blank" href="https://bookings.mobilemuster.com.au/">bookings.mobilemuster.com.au</a><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTIC BLOCKS -->
+    <section class="pt4 usa-section">
+      <div class="mb4 usa-grid">
+        <section class="mb5">
+          <h1 class="f2 mt0">MobileMuster delivers a free mobile phone recycling program to everyone.  We work with workplaces, retailers, local councils and schools to make recycling easy and accessible. Since 1998 we have...</h1>
+          <p class="lh-copy measure"></p>
+        </section>
+
+        <div class="usa-width-one-half">
+          <div class="usa-alert usa-alert-success">
+            <div class="usa-alert-body"><h3 class="usa-alert-heading">Recycled over 11 million items.</h3><p class="usa-alert-text"><a tragert="_blank" href="/media/135343/mob_annualreport-2016-17final.pdf">View our latest results here</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="usa-width-one-half">
+          <div class="usa-alert usa-alert-success">
+            <div class="usa-alert-body"><h3 class="usa-alert-heading">Saved 1,323 tonnes from landfill.</h3><p class="usa-alert-text"><a href="/recycling/">Learn more about the benefits of recycling</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="usa-grid">
+        <div class="usa-width-one-half">
+          <div class="usa-alert usa-alert-success">
+            <div class="usa-alert-body"><h3 class="usa-alert-heading">A 99% Recovery Rate.</h3><p class="usa-alert-text"><a href="/education/">Find out what happens when you recycle with us</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="usa-width-one-half">
+          <div class="usa-alert usa-alert-success">
+            <div class="usa-alert-body"><h3 class="usa-alert-heading">Over 3,500 drop off points.</h3><p class="usa-alert-text"><a href="/recycling/">Find your nearest drop off point</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIBBON 1 -->
+    <section class="mt0 mb5 usa-section usa-section-dark usa-graphic_list">
+      <div class="bglogo-full usa-grid usa-graphic_list-row">
+        <h3 class="f1 measure lh-title mv0">
+          <span class="lh-copy white pr4 pa1">
+            <span class="mb3 pt2 bgdgreen dib usa-label">Did you know?</span><br>
+            We accept any mobile phone and their batteries, chargers and accessories for recycling?
+            <span class="mt5 dib f3 near-black">MobileMuster safely and securely recycles old mobiles for free.<br>
+            <a class="f3 near-black" href="/recycling/">Find your closest drop-off point</a> <span class="f3">or</span> <a class="f3 near-black" href="/media/135250/mobilemuster-mailing-label.pdf">download a shipping label</a>.</span>
+          </span>
+        </h3>
+      </div>
+    </section>
+
+    <!-- LATEST NEWS - HEADING -->
     <section class="mv5 pv0 usa-grid usa-section">
       <div class="usa-width-two-thirds">
         <section class="mw6 mw8-ns dib bggreen white pa3">
@@ -18,6 +97,7 @@
       </div>
     </section>
 
+    <!-- LATEST NEWS - ARTICLES -->
     {{range first 3 (where .Data.Pages "Section" "news") }}
       <section class="mv0 pv0 usa-grid usa-section">
         <div class="usa-width-three-fourths usa-layout-docs-main_content">
@@ -39,6 +119,7 @@
       </section>
     {{ end }}
 
+    <!-- LATEST NEWS - CTA -->
     <section class="mv0 pv0 usa-grid usa-section">
       <div class="usa-width-three-fourths usa-layout-docs-main_content">
         <main class="" id="main-content">
@@ -47,7 +128,19 @@
       </div>
     </section>
 
-    {{ partial "brick-2" . }}
+    <!-- RIBBON 2 -->
+    <section class="mt5 mb5 usa-section usa-section-dark usa-graphic_list">
+      <div class="bglogo-full usa-grid usa-graphic_list-row">
+        <h3 class="f1 lh-title mv0">
+          <span class="lh-copy white pa1">
+            <span class="dib measure-wide mb3 pt2 bgdgreen dib usa-label">Since 1998&hellip;</span>
+            <span class="dib">MobileMuster has safely and securely recycled mobile phones for Australian consumers and businesses for over 19 years, saving over 11 million handsets and batteries from landfill.</span>
+            <span class="mt5 dib f3 near-black">MobileMuster responsibly recycles your mobile for free.<br>
+            <a class="f3 near-black" href="/recycling/">Find your closest drop-off point</a> or <a class="f3 near-black" href="/media/135250/mobilemuster-mailing-label.pdf">download a shipping label</a>.</span>
+          </span>
+        </h3>
+      </div>
+    </section>
 
   </main>
 

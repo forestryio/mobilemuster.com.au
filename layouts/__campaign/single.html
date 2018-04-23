@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+  {{ with .Params.subtitle }}
+
+    <section class="mv5 pv0 usa-grid usa-section">
+      <div class="usa-width-two-thirds">
+        <section class="mw6 mw8-ns dib bggreen white pa3">
+          <h2 class="mv0">
+            {{ . }}
+          </h2>
+        </section>
+      </div>
+    </section>
+
+  {{ end }}
+
+
+  <section class="mv5 pv0 usa-grid usa-section">
+    <div class="usa-width-four-fourths usa-layout-docs-main_content">
+      <main class='pt0' id="main-content">
+
+        <section class="pt0 usa-hero">
+          <div class="ph0 usa-grid">
+            <div class="cf br3 usa-width-full bg-light-gray usa-section-dark">
+              <div class="pt6 pl5 pr4 usa-width-one-half">
+               <span class="dib measure-wide mb1 pv2 bggreen dib usa-label">{{ .Title }}</span>
+               <h2><span class="near-black usa-hero-callout-alt">Recycle your mobile this summer and we’ll donate a meal to someone in need through OzHarvest.</span></h2>
+               <a class="mmgreen hover-near-black usa-hero-link" href="#more">Read more &rarr;</a>
+              </div>
+              <div class="usa-width-one-half">
+                <img class="w-100" src="{{ .Site.BaseURL }}img/mm/campaign-img-blue.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="more" class="mv6">
+          {{ .Content | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
+        </div>
+
+        {{ if .Params.includemaplocator }}
+          {{ partial "intro-search" . }}
+        {{ end }}
+
+      </main>
+    </div>
+  </section>
+
+{{ end }}

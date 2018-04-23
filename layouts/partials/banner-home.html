@@ -1,0 +1,17 @@
+<section class="usa-hero">
+  <div class='usa-grid usa-section'>
+    <div class="cf br3 usa-width-full bg-light-gray usa-section-dark">
+      <div class="usa-width-one-half">
+        <a class="usa-hero-link" href="{{ .Params.Url }}"><img class="w-100" src="{{ .Params.Image }}" alt=""></a>
+      </div>
+      <div class="pt6 ph4 usa-width-one-half">
+        <span class="dib measure-wide mb1 pv2 bggreen dib usa-label">{{ .Params.Label }}</span>
+        <h2>
+          <span class="near-black usa-hero-callout-alt">{{ .Params.Heading }}</span>
+        </h2>
+        <h4 class="mb4"><span class="near-black">{{ .Params.Summary }}</span></h4>
+        <a class="green hover-near-black usa-hero-link" href="{{ .Params.Url }}">{{ .Params.Cta }} &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>

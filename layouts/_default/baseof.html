@@ -157,32 +157,19 @@
 
         <div class="usa-overlay"></div>
 
-
         <main class="site-main" role="main">
-
-            {{ block "main" . }}{{ end }}
-
+          {{ block "main" . }}{{ end }}
         </main>
-
 
         {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 
         {{ block "scripts" . }}
-          <!--{{ partial "scripts.html" . }}-->
 
           {{ if eq .URL "/locator-map/" }}
-
-            <!--script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2JRul_oIETYF86v5fSBFRMWeY-1mbCA&libraries=places"></script-->
-
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfhwZoShDa2FIs7tmIXv_5a2xuDUJp2N0&libraries=places"></script>
-
             <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
             <script src="/js/search-simplified.js"></script>
-
           {{ end }}
-
-
-            <!--script src="/js/algolia.js"></script-->
 
           <script src='{{ "js/app.js" | absURL }}' defer></script>
           <script>

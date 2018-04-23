@@ -1,28 +1,28 @@
 {{ define "main" }}
 
-
-
-    <section class="mv5 pv0 usa-grid usa-section">
-      <div class="usa-width-two-thirds">
-        <section class="mw6 mw8-ns dib bggreen white pa3">
-          <h2 class="mv0">
-            Latest News
-          </h2>
-        </section>
-      </div>
-    </section>
-
-
-
-
   <section class="mv5 pv0 usa-grid usa-section">
-      <div class="usa-width-four-fourths usa-layout-docs-main_content">
-          <main class='pa0' id="main-content">
-              {{ partial "hero" . }}
-          </main>
-      </div>
+    <div class="usa-width-two-thirds">
+      <section class="mw6 mw8-ns dib bggreen white pa3">
+        <h2 class="mv0">
+          Latest News
+        </h2>
+      </section>
+    </div>
   </section>
 
+  <section class="mv5 pv0 usa-grid usa-section">
+    <div class="usa-width-four-fourths usa-layout-docs-main_content">
+      <main class='pa0' id="main-content">
+
+        {{ with .Site.GetPage "home" }}
+          {{ with .Site.GetPage "page" "banners" (printf "%s.md" .Params.banner) }}
+            {{ partial "banner-news" . }}
+          {{ end }}
+        {{ end }}
+
+      </main>
+    </div>
+  </section>
 
   <section class="mb5 pv0 usa-grid usa-section">
       <div class="usa-width-three-fourths usa-layout-docs-main_content">
