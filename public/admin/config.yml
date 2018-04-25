@@ -1,0 +1,103 @@
+backend:
+  name: github
+  repo: mobilemuster/mobilemuster.com.au
+  branch: production
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+publish_mode: editorial_workflow
+collections:
+
+  - name: "resources"
+    label: "Resources"
+    label_singular: "Resource"
+    folder: "content/resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "In Section", name: "section", widget: "select", options: ["Public", "Teachers", "Students"]}
+      - { label: "Include Map Locator Button?", name: "includemaplocator", widget: "boolean", required: false }
+      - { label: "Feature Image", name: "fimage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+
+  - name: "page"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Include Map Locator Button?", name: "includemaplocator", widget: "boolean", required: false }
+      - { label: "Feature Image", name: "fimage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+
+  - name: "news"
+    label: "News"
+    label_singular: "News"
+    folder: "content/news"
+    create: true
+    slug: "news/{{slug}}"
+    fields:
+      - { label: "News Title", name: "title", widget: "string" }
+      - { label: "News Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "News Image", name: "image", widget: "image", required: false }
+      - { label: "Intro Text", name: "intro", widget: "string" }
+      - { label: "Body Text", name: "body", widget: "markdown", required: false }
+
+
+  - name: "campaigns"
+    label: "Campaigns"
+    label_singular: "Campaign"
+    folder: "content/campaigns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Campaign Name", name: "title", widget: "string" }
+      - { label: "Campaign Slogan", name: "slogan", widget: "string", required: false }
+      - { label: "Campaign Partner", name: "partner", widget: "string", required: false }
+      - { label: "Campaign Image", name: "image", widget: "image", required: false }
+      - { label: "Campaign Start Date", name: "datestart", widget: "date", default: "", format: "Do MMM YY", required: false }
+      - { label: "Campaign End Date", name: "dateend", widget: "date", default: "", format: "Do MMM YY", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+
+  - name: "members"
+    label: "Members"
+    label_singular: "Member"
+    folder: "content/partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Member Name", name: "title", widget: "string" }
+      - { label: "Member Slogan", name: "slogan", widget: "string", required: false }
+      - { label: "Member Logo", name: "image", widget: "image", required: false }
+      - { label: "Member Website", name: "website", widget: "string", required: false }
+      - { label: "Member Blurb", name: "body", widget: "markdown", required: false }
+
+  - name: "people"
+    label: "People"
+    folder: "content/people"
+    create: true
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "profile", widget: "image", required: false }
+      - {label: "Bio", name: "bio", widget: "markdown", required: false }
+
+
+  - name: "faqs"
+    label: "FAQs"
+    label_singular: "FAQ"
+    folder: "content/faqs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Question", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "Answer", name: "body", widget: "markdown", required: false }

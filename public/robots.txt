@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /
+
+Disallow: old.mobilemuster.com.au/*
+Disallow: /cms
+Disallow: /admin
+Disallow: /login
+Disallow: /flow
+Disallow: /openflow
+Disallow: /closedflow
+Disallow: /newflow
+
